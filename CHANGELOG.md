@@ -17,3 +17,13 @@
 - Sergio Sánchez: exploración de tipos de datos y valores nulos.
 - Eduardo Saldívia: revisión de calidad de datos.
 - Cristian Vera: integración de cambios del equipo en la rama Sprint_1.
+
+## Día 4 - Ejercicio 03
+- Eduardo Saldívia: normalización de horas al formato 24hs.
+- Eduardo Saldívia: normalización de ubicaciones.
+- Eduardo Saldívia: limpieza y normalización de patentes.
+- Eduardo Saldívia: eliminación de filas con valores relevantes vacíos.
+- Eduardo Saldívia: detección y eliminación de outliers.
+- Eduardo Saldívia: creación de columnas exceso_velocidad_real y exceso_velocidad.
+- Eduardo Saldívia: eliminación de filas sin infracción.
+- Eduardo Saldívia: guardado del dataset limpio en interim.
