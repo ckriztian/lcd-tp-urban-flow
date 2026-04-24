@@ -1,29 +1,55 @@
-# CHANGELOG
 
-## Día 1 - Inicialización del proyecto
-- Cristian Vera: creación del repositorio en GitHub.
-- Cristian Vera: configuración inicial del entorno de trabajo en Google Colab.
-- Cristian Vera: creación y organización de ramas de trabajo (`main`, `Sprint_1` y ramas individuales por integrante).
-- Cristian Vera: definición del flujo de trabajo colaborativo con Git y GitHub.
+# CHANGELOG: Proyecto Urban Flow
 
-## Día 2 - Ejercicio 01
-- Cristian Vera: implementación de la estructura de directorios del proyecto.
-- Cristian Vera: organización inicial del notebook principal según los criterios de evaluación.
-- Cristian Vera: actualización del archivo `README.md` con el sprint actual, objetivo, introducción y contexto del trabajo.
-- Cristian Vera: actualización del archivo `CHANGELOG.md` para registrar los avances del proyecto.
+Todos los cambios notables en este proyecto serán documentados en este archivo, siguiendo la progresión de los ejercicios del **Sprint 1**.
 
-## Día 3 - Documentación del proyecto
-- Darío Verdún: carga inicial del dataset.
-- Sergio Sánchez: exploración de tipos de datos y valores nulos.
-- Eduardo Saldívia: revisión de calidad de datos.
-- Cristian Vera: integración de cambios del equipo en la rama Sprint_1.
+---
 
-## Día 4 - Ejercicio 03
-- Eduardo Saldívia: normalización de horas al formato 24hs.
-- Eduardo Saldívia: normalización de ubicaciones.
-- Eduardo Saldívia: limpieza y normalización de patentes.
-- Eduardo Saldívia: eliminación de filas con valores relevantes vacíos.
-- Eduardo Saldívia: detección y eliminación de outliers.
-- Eduardo Saldívia: creación de columnas exceso_velocidad_real y exceso_velocidad.
-- Eduardo Saldívia: eliminación de filas sin infracción.
-- Eduardo Saldívia: guardado del dataset limpio en interim.
+## Día 1 - Ejercicio 01: Inicialización y Configuración
+*   **Gestión de Repositorio**: Creación del repositorio en GitHub y definición del flujo colaborativo.
+*   **Entorno de Trabajo**: Configuración inicial en Google Colab y organización de ramas (`main`, `Sprint_1` y ramas individuales).
+*   **Estructura de Datos**: Implementación de la jerarquía de directorios del proyecto.
+*   **Documentación Base**: 
+    *   Actualización del `README.md` con objetivos, introducción y contexto.
+    *   Inicialización del `CHANGELOG.md` para el registro de avances.
+*   **Maquetación**: Organización inicial del notebook principal siguiendo los criterios de evaluación establecidos.
+
+---
+
+## Día 2 - Ejercicio 02: Carga y Exploración Inicial
+*   **Adquisición de Datos**: Descarga del dataset original y almacenamiento en la ruta estructurada `urban_flow/data/raw`.
+*   **Ingesta**: Carga del dataset utilizando la librería `pandas`.
+*   **Inspección Técnica**: 
+    *   Visualización de registros iniciales mediante el método `head()`.
+    *   Análisis de tipos de datos (`dtypes`) por columna.
+*   **Diagnóstico de Calidad**: 
+    *   Cuantificación de valores nulos mediante `isna()` y `sum()`.
+    *   Detección de inconsistencias críticas en fechas, horas y valores faltantes.
+
+---
+
+## Día 3 - Ejercicio 03: Limpieza y Normalización
+*   **Normalización Temporal**: 
+    *   Estandarización de fechas al formato `YYYY-MM-DD` (valor base `1932-01-01` para inválidos).
+    *   Ajuste de horas al formato de 24hs (valor base `00:00` para errores).
+*   **Saneamiento de Texto**: 
+    *   Limpieza de `ubicacion` eliminando caracteres especiales y normalizando a mayúsculas.
+    *   Normalización de `patente` (mayúsculas y remoción de símbolos) utilizando `pd.NA` para datos no disponibles.
+*   **Depuración de Registros**: 
+    *   Eliminación de filas con nulos en columnas relevantes (`patente`, `velocidad_registrada`).
+    *   Tratamiento de outliers mediante el método de rango intercuartílico (IQR).
+*   **Ingeniería de Características**: 
+    *   Cálculo de `exceso_velocidad_real`.
+    *   Cálculo de `exceso_velocidad` (incluyendo tolerancia del 5% sobre el límite).
+*   **Persistencia**: Eliminación de registros sin infracción y exportación a `urban_flow/data/interim/speeding_fines.csv`.
+
+---
+
+## Día 4 - Ejercicio 04: Análisis Avanzado (Clase FineAnalyzer)
+*   **Arquitectura de Software**: Definición de la clase `FineAnalyzer` con encapsulamiento de datos mediante el atributo privado `__data`.
+*   **Ranking y Reportes**: 
+    *   Desarrollo del método para el **Top 5 de patentes** con índice base 1.
+    *   Desarrollo del método para el **Top 5 de horarios** con mayor siniestralidad.
+*   **Métricas Estadísticas**: Implementación de métodos para calcular el exceso promedio (real y con tolerancia).
+*   **Contabilización Geográfica**: Método para contabilizar multas por ubicación con ordenamiento alfabético.
+*   **Validación**: Creación de celdas independientes para la instanciación del objeto y la invocación de todos los métodos de análisis.
