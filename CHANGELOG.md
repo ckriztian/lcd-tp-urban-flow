@@ -53,3 +53,29 @@ Todos los cambios notables en este proyecto serán documentados en este archivo,
 *   **Métricas Estadísticas**: Implementación de métodos para calcular el exceso promedio (real y con tolerancia).
 *   **Contabilización Geográfica**: Método para contabilizar multas por ubicación con ordenamiento alfabético.
 *   **Validación**: Creación de celdas independientes para la instanciación del objeto y la invocación de todos los métodos de análisis.
+
+
+---
+
+## Día 5 - Ejercicio 05: Visualización de Datos
+
+- **Análisis Gráfico**:
+Generación de visualizaciones para responder a cada punto de la consigna utilizando gráficos adecuados según el tipo de análisis.
+
+- **Ranking de Reincidencia**:
+Construcción de gráfico de barras con el Top 10 de patentes más infractoras, ordenado de mayor a menor.
+
+- **Distribución Horaria**:
+Representación del porcentaje de infracciones por hora mediante gráfico de torta para identificar franjas de mayor incidencia.
+
+- **Análisis Temporal Mensual**:
+Visualización de la cantidad de infracciones por mes utilizando gráfico de barras horizontal ordenado.
+
+- **Comportamiento Horario**:
+Análisis del exceso de velocidad promedio agrupado por hora completa (HH:00) mediante gráfico de líneas.
+
+- **Análisis de Datos Atípicos**:
+Visualización del exceso de velocidad correspondiente a registros con fecha inválida (1932-01-01) para evaluar su comportamiento.
+
+- **Persistencia de Resultados**:
+Exportación de todos los gráficos generados en formato .jpg dentro de la ruta `urban_flow/data/interim/plots`.
