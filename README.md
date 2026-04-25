@@ -2,7 +2,7 @@
 # Trabajo Práctico - Urban Flow
 
 <p align="center">
-  <!-- <img src="https://lh6.googleusercontent.com/proxy/Q7ErB79p5ZGD-KBqCemTRWMklYxWsSik02tWGT3lIfpjcqldZn2CWgaFWYyw7jyz7X35ilWicXpnf10_ss7-UoR9fURCIG8EaZfHpgUbAw8AJUJ71Q" alt="Logo UGR" width="200"/> -->
+  <!-- <img src="https://drive.google.com/file/d/1GCP05yV2AQxn0riLG-9OYAkhkzzPl8be/view?usp=sharing" alt="Logo UGR" width="200"/> -->
 </p>
 
 ---
