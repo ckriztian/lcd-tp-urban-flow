@@ -1,9 +1,7 @@
 
 # Trabajo Práctico - Urban Flow
 
-<p align="center">
-  <!-- <img src="https://drive.google.com/file/d/1GCP05yV2AQxn0riLG-9OYAkhkzzPl8be/view?usp=sharing" alt="Logo UGR" width="200"/> -->
-</p>
+![Logo](https://crup.org.ar/wp-content/uploads/2026/02/UGR-LOGO-1.png)
 
 ---
 
