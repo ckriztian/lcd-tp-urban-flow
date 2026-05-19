@@ -126,3 +126,21 @@ El dataset permite analizar el comportamiento de las infracciones de tránsito d
 
 
 ---
+
+## Correcciones TP 1:
+## Día 10 - Ejercicio 05: Correcciones y Ajustes Post-Entrega
+
+- **Corrección de Fechas**:
+Actualización de la normalización de fechas utilizando `format="mixed"` para soportar múltiples formatos de entrada.
+
+-**Trazabilidad Git**:
+Incorporación explícita de bloques `git add`, `git commit` y `git push` luego de cada ejercicio, siguiendo las observaciones de la devolución.
+
+-**Corrección de Visualizaciones**:
+Incorporación del gráfico faltante correspondiente al análisis de excesos de velocidad para registros con fecha `1932-01-01`.
+
+-**Ajuste de Análisis Mensual**:
+Corrección del gráfico de infracciones por mes eliminando el filtrado de fechas imputadas, respetando la consigna original.
+
+-**Documentación**:
+Actualización de observaciones, conclusiones y descripciones de gráficos para mantener coherencia con los resultados obtenidos.
