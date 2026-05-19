@@ -35,18 +35,18 @@ A partir de este conjunto de datos, se busca construir un proceso ordenado que p
 
 Durante el Sprint 1 se abordaron las tareas iniciales necesarias para la organización del proyecto y la preparación del entorno de trabajo. Las principales actividades desarrolladas fueron:
 
-- Creación y configuración del repositorio en GitHub  
-- Definición de la estrategia de versionado basada en ramas  
-- Implementación del flujo de trabajo colaborativo  
-- Diseño de la estructura de directorios del proyecto  
-- Preparación del notebook principal conforme a los criterios de evaluación  
-- Elaboración de la documentación inicial mediante los archivos `README.md` y `CHANGELOG.md`  
+- Creación y configuración del repositorio en GitHub
+- Definición de la estrategia de versionado basada en ramas
+- Implementación del flujo de trabajo colaborativo
+- Diseño de la estructura de directorios del proyecto
+- Preparación del notebook principal conforme a los criterios de evaluación
+- Elaboración de la documentación inicial mediante los archivos `README.md` y `CHANGELOG.md`
 
 ---
 
 ## Integrantes
 
-- Cristian Vera  
-- Darío Verdún  
-- Sergio Sánchez  
-- Eduardo Saldívia  
+- Cristian Vera
+- Darío Verdún
+- Sergio Sánchez
+- Eduardo Saldívia
