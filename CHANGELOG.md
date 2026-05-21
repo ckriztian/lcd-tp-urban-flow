@@ -6,6 +6,8 @@ Todos los cambios notables en este proyecto serán documentados en este archivo,
 
 ---
 
+# Sprint 1
+
 ## Día 1 - Ejercicio 01: Inicialización y Configuración
 *   **Gestión de Repositorio**: Creación del repositorio en GitHub y definición del flujo colaborativo.
 *   **Entorno de Trabajo**: Configuración inicial en Google Colab y organización de ramas (`main`, `Sprint_1` y ramas individuales).
@@ -124,7 +126,6 @@ Reconocimiento de la influencia de valores como 1932-01-01 y 00:00 en los result
 - **Conclusión Final**:
 El dataset permite analizar el comportamiento de las infracciones de tránsito de manera efectiva una vez procesado, aunque los resultados deben considerarse teniendo en cuenta las limitaciones derivadas de la calidad de los datos originales.
 
-
 ---
 
 ## Correcciones TP 1:
@@ -144,3 +145,22 @@ Corrección del gráfico de infracciones por mes eliminando el filtrado de fecha
 
 - **Documentación**:
 Actualización de observaciones, conclusiones y descripciones de gráficos para mantener coherencia con los resultados obtenidos.
+
+---
+
+# Sprint 2
+
+## Día 1 - Ejercicio 01: Inicialización y Preparación del Dataset de Imágenes
+
+- **Gestión de Repositorio**:
+Creación y configuración de la rama `Sprint_2` a partir de `Sprint_1`.
+
+- **Adquisición de Datos**:
+* Descarga del dataset de imágenes provisto para el Sprint 2.
+* Descompresión y almacenamiento de imágenes en `urban_flow/data/raw/imgs`.
+
+- **Estructura de Datos**:
+Preparación de directorios destinados al procesamiento y análisis de imágenes.
+
+- **Documentación**:
+Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
