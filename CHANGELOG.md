@@ -164,3 +164,27 @@ Preparación de directorios destinados al procesamiento y análisis de imágenes
 
 - **Documentación**:
 Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
+
+---
+
+## Día 2 - Ejercicio 02: Verificación y Organización del Dataset de Imágenes
+
+- **Inspección de Imágenes**:
+* Relevamiento de imágenes disponibles en `urban_flow/data/raw/imgs`.
+* Obtención de nombre de archivo y tamaño en kilobytes.
+
+- **Agrupación de Imágenes**:
+* Separación de imágenes en los grupos `plates` y `completes`.
+* Conteo de imágenes por grupo.
+
+- **Metadatos de Imágenes**:
+* Obtención de resolución (`width` y `height`) y cálculo de área.
+* Cálculo de resolución promedio por grupo.
+
+- **Persistencia de Datos**:
+* Construcción del diccionario `group_images`.
+* Exportación de `group_images.json` en `ubran_flow/data/interim`.
+
+- **Visualización**:
+* Desarrollo de función reutilizable para mostrar imágenes aleatorias.
+* Visualización de 4 imágenes por grupo en formato de tabla.
