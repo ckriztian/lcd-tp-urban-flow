@@ -209,3 +209,22 @@ Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
 
 ---
 
+## Día 4 - Ejercicio 04: Extracción y Relación de Patentes
+
+-   **Extracción OCR**:
+    *   Aplicación de la función `extraer_patente` sobre imágenes del grupo `plates`.
+    *   Almacenamiento de la patente detectada en la clave `patent` del diccionario `group_images`.
+
+-   **Relación con Dataset**:
+    *   Carga del dataset limpio generado en el Sprint 1.
+    *   Comparación entre patentes detectadas por OCR y patentes del dataset procesado.
+
+-   **Validación de Coincidencias**:
+    *   Cálculo del porcentaje de coincidencia mediante `ratio`.
+    *   Consideración de coincidencias válidas a partir del 80%.
+
+-   **Persistencia**:
+    *   Incorporación de las columnas `imagen`, `patente_imagen` y `ratio`.
+    *   Exportación del dataset final en `urban_flow/data/processed/speeding_fines_image.csv`.
+
+---
