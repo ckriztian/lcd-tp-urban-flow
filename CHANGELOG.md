@@ -128,8 +128,7 @@ El dataset permite analizar el comportamiento de las infracciones de tránsito d
 
 ---
 
-## Correcciones TP 1:
-## Día 10 - Ejercicio 05: Correcciones y Ajustes Post-Entrega
+## Día 10 - Ejercicio 05: Correcciones y Ajustes Post-Entrega (Correcciones TP 1)
 
 - **Corrección de Fechas**:
 Actualización de la normalización de fechas utilizando `format="mixed"` para soportar múltiples formatos de entrada.
@@ -188,3 +187,25 @@ Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
 - **Visualización**:
 * Desarrollo de función reutilizable para mostrar imágenes aleatorias.
 * Visualización de 4 imágenes por grupo en formato de tabla.
+
+---
+
+## Día 3 - Ejercicio 03: Procesamiento de Imágenes
+
+*   **Escala de Grises**:
+    *   Conversión de imágenes originales a escala de grises.
+    *   Almacenamiento de resultados en `urban_flow/data/interim/imgs/03_01_gray_scale`.
+
+*   **Suavizado de Imágenes**:
+    *   Aplicación de filtro Gaussiano sobre imágenes en escala de grises.
+    *   Almacenamiento de resultados en `urban_flow/data/interim/imgs/03_02_blur`.
+
+*   **Detección de Bordes**:
+    *   Aplicación del algoritmo Canny sobre imágenes suavizadas.
+    *   Almacenamiento de resultados en `urban_flow/data/interim/imgs/03_03_canny`.
+
+*   **Visualización**:
+    *   Reutilización de función para mostrar imágenes procesadas de ambos grupos.
+
+---
+
