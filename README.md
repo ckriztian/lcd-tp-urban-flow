@@ -80,4 +80,3 @@ A partir del dataset procesado en el Sprint 1 y un dataset de imágenes, se busc
 - Validación de evidencia visual.
 
 ---
-
