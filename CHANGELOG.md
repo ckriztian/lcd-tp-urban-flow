@@ -228,3 +228,19 @@ Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
     *   Exportación del dataset final en `urban_flow/data/processed/speeding_fines_image.csv`.
 
 ---
+
+## Día 5 - Ejercicio 05: Métricas del Dataset Final
+
+-   **Métricas de Evidencia Visual**:
+    *   Cálculo de multas con imágenes relacionadas.
+    *   Cálculo de multas sin imágenes asociadas.
+
+-   **Control de Coincidencias**:
+    *   Identificación de imágenes sin match con el dataset procesado.
+
+-   **Estado de Multas**:
+    *   Cálculo de multas pendientes de pago.
+    *   Cálculo de multas pendientes de pago con imágenes relacionadas.
+
+---
+
