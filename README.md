@@ -97,3 +97,4 @@ Durante el Sprint 2 se logró relacionar información administrativa de multas c
 | Promedio de coincidencia OCR | 94.6% |
 
 ---
+
