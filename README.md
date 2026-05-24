@@ -81,3 +81,19 @@ A partir del dataset procesado en el Sprint 1 y un dataset de imágenes, se busc
 
 ---
 
+## Resultados obtenidos
+
+Durante el Sprint 2 se logró relacionar información administrativa de multas con evidencia visual mediante procesamiento de imágenes y OCR.
+
+### Métricas principales
+
+| Métrica | Resultado |
+|---|---:|
+| Multas con imágenes relacionadas | 754 |
+| Multas sin evidencia visual asociada | 959 |
+| Imágenes sin coincidencia con el dataset | 66 |
+| Multas pendientes de pago | 430 |
+| Multas pendientes con imágenes relacionadas | 182 |
+| Promedio de coincidencia OCR | 94.6% |
+
+---

@@ -151,61 +151,116 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 ## Día 1 - Ejercicio 01: Inicialización y Preparación del Dataset de Imágenes
 
-- **Gestión de Repositorio**:
-Creación y configuración de la rama `Sprint_2` a partir de `Sprint_1`.
+-   **Gestión de Repositorio**:
+    *   Creación y configuración de la rama `Sprint_2` a partir de `Sprint_1`.
 
-- **Adquisición de Datos**:
-* Descarga del dataset de imágenes provisto para el Sprint 2.
-* Descompresión y almacenamiento de imágenes en `urban_flow/data/raw/imgs`.
+-   **Adquisición de Datos**:
+    *   Descarga del dataset de imágenes provisto para el Sprint 2.
+    *   Descompresión y almacenamiento de imágenes en `urban_flow/data/raw/imgs`.
 
-- **Estructura de Datos**:
-Preparación de directorios destinados al procesamiento y análisis de imágenes.
+-   **Estructura de Datos**:
+    *   Preparación de directorios destinados al procesamiento y análisis de imágenes.
 
-- **Documentación**:
-Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
+-   **Documentación**:
+    *   Actualización del `README.md` y `CHANGELOG.md` para el nuevo sprint.
 
 ---
 
 ## Día 2 - Ejercicio 02: Verificación y Organización del Dataset de Imágenes
 
-- **Inspección de Imágenes**:
-* Relevamiento de imágenes disponibles en `urban_flow/data/raw/imgs`.
-* Obtención de nombre de archivo y tamaño en kilobytes.
+-   **Inspección de Imágenes**:
+    *   Relevamiento de imágenes disponibles en `urban_flow/data/raw/imgs`.
+    *   Obtención de nombre de archivo y tamaño en kilobytes.
 
-- **Agrupación de Imágenes**:
-* Separación de imágenes en los grupos `plates` y `completes`.
-* Conteo de imágenes por grupo.
+-   **Agrupación de Imágenes**:
+    *   Separación de imágenes en los grupos `plates` y `completes`.
+    *   Conteo de imágenes por grupo.
 
-- **Metadatos de Imágenes**:
-* Obtención de resolución (`width` y `height`) y cálculo de área.
-* Cálculo de resolución promedio por grupo.
+-   **Metadatos de Imágenes**:
+    *   Obtención de resolución (`width` y `height`) y cálculo de área.
+    *   Cálculo de resolución promedio por grupo.
 
-- **Persistencia de Datos**:
-* Construcción del diccionario `group_images`.
-* Exportación de `group_images.json` en `ubran_flow/data/interim`.
+-   **Persistencia de Datos**:
+    *   Construcción del diccionario `group_images`.
+    *   Exportación de `group_images.json` en `ubran_flow/data/interim`.
 
-- **Visualización**:
-* Desarrollo de función reutilizable para mostrar imágenes aleatorias.
-* Visualización de 4 imágenes por grupo en formato de tabla.
+-   **Visualización**:
+    *   Desarrollo de función reutilizable para mostrar imágenes aleatorias.
+    *   Visualización de 4 imágenes por grupo en formato de tabla.
 
 ---
 
 ## Día 3 - Ejercicio 03: Procesamiento de Imágenes
 
-*   **Escala de Grises**:
+-   **Escala de Grises**:
     *   Conversión de imágenes originales a escala de grises.
     *   Almacenamiento de resultados en `urban_flow/data/interim/imgs/03_01_gray_scale`.
 
-*   **Suavizado de Imágenes**:
+-   **Suavizado de Imágenes**:
     *   Aplicación de filtro Gaussiano sobre imágenes en escala de grises.
     *   Almacenamiento de resultados en `urban_flow/data/interim/imgs/03_02_blur`.
 
-*   **Detección de Bordes**:
+-   **Detección de Bordes**:
     *   Aplicación del algoritmo Canny sobre imágenes suavizadas.
     *   Almacenamiento de resultados en `urban_flow/data/interim/imgs/03_03_canny`.
 
-*   **Visualización**:
+-   **Visualización**:
     *   Reutilización de función para mostrar imágenes procesadas de ambos grupos.
 
 ---
 
+## Día 4 - Ejercicio 04: Extracción y Relación de Patentes
+
+-   **Extracción OCR**:
+    *   Aplicación de la función `extraer_patente` sobre imágenes del grupo `plates`.
+    *   Almacenamiento de la patente detectada en la clave `patent` del diccionario `group_images`.
+
+-   **Relación con Dataset**:
+    *   Carga del dataset limpio generado en el Sprint 1.
+    *   Comparación entre patentes detectadas por OCR y patentes del dataset procesado.
+
+-   **Validación de Coincidencias**:
+    *   Cálculo del porcentaje de coincidencia mediante `ratio`.
+    *   Consideración de coincidencias válidas a partir del 80%.
+
+-   **Persistencia**:
+    *   Incorporación de las columnas `imagen`, `patente_imagen` y `ratio`.
+    *   Exportación del dataset final en `urban_flow/data/processed/speeding_fines_image.csv`.
+
+---
+
+## Día 5 - Ejercicio 05: Métricas del Dataset Final
+
+-   **Métricas de Evidencia Visual**:
+    *   Cálculo de multas con imágenes relacionadas.
+    *   Cálculo de multas sin imágenes asociadas.
+
+-   **Control de Coincidencias**:
+    *   Identificación de imágenes sin match con el dataset procesado.
+
+-   **Estado de Multas**:
+    *   Cálculo de multas pendientes de pago.
+    *   Cálculo de multas pendientes de pago con imágenes relacionadas.
+
+---
+
+## Día 6 - Ejercicio 06: Conclusión sobre Imágenes y Datos
+
+*   **Análisis Final**:
+    *   Evaluación de la relación entre el dataset administrativo y las imágenes procesadas.
+    *   Interpretación de multas con y sin evidencia visual asociada.
+
+*   **Resultados Obtenidos**:
+    *   Identificación de 754 multas con imágenes relacionadas.
+    *   Identificación de 959 multas sin evidencia visual asociada.
+    *   Detección de 66 imágenes sin coincidencia con el dataset.
+
+*   **Evaluación OCR**:
+    *   Análisis de ratios de coincidencia entre patentes detectadas y patentes registradas.
+    *   Reconocimiento de un promedio de coincidencia aproximado del 94.6%.
+
+*   **Conclusión**:
+    *   Interpretación de las imágenes como evidencia visual complementaria.
+    *   Reconocimiento de limitaciones asociadas a calidad de imagen, OCR y coincidencias parciales.
+
+---
