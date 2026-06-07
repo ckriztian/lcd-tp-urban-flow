@@ -182,7 +182,7 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 -   **Persistencia de Datos**:
     *   Construcción del diccionario `group_images`.
-    *   Exportación de `group_images.json` en `ubran_flow/data/interim`.
+    *   Exportación de `group_images.json` en `urban_flow/data/interim`.
 
 -   **Visualización**:
     *   Desarrollo de función reutilizable para mostrar imágenes aleatorias.
@@ -264,3 +264,11 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Reconocimiento de limitaciones asociadas a calidad de imagen, OCR y coincidencias parciales.
 
 ---
+
+## Día 10 - Correcciones y Ajustes Post-Entrega (Sprint 2)
+*   **Ejercicio 2 y 4**:
+    *   Corrección de la ruta de guardado de `group_images.json`.
+    *   Eliminación de la duplicación de `mostrar_imagenes_aleatorias()`.
+    *   Incorporación de la carga de `group_images.json` antes del OCR.
+    *   Ajuste de rutas relativas y validaciones de lectura de imágenes.
+
