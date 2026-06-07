@@ -267,6 +267,8 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 ## Día 10 - Correcciones y Ajustes Post-Entrega (Sprint 2)
 *   **Ejercicio 2**:
-    *   Se redireccionó correctamente el archivo json a la carpeta destino. (Ejercicio 2)
-    *   Corrección de función mostrar_imagenes duplicada. 
+    *   Corrección de la ruta de guardado de `group_images.json`.
+    *   Eliminación de la duplicación de `mostrar_imagenes_aleatorias()`.
+    *   Incorporación de la carga de `group_images.json` antes del OCR.
+    *   Ajuste de rutas relativas y validaciones de lectura de imágenes.
 
