@@ -97,3 +97,28 @@ Durante el Sprint 2 se logró relacionar información administrativa de multas c
 | Promedio de coincidencia OCR | 94.6% |
 
 ---
+
+# Sprint 3 — Persistencia y explotación de datos
+
+## Objetivo
+
+El objetivo del Sprint 3 es integrar los datasets generados en los sprints anteriores dentro de una base de datos relacional, permitiendo centralizar la información, optimizar las consultas y facilitar futuros análisis.
+
+## Introducción
+
+Luego de completar las etapas de limpieza de datos, procesamiento de imágenes y validación de evidencia visual, el proyecto requiere una solución que permita almacenar y gestionar la información de manera estructurada y persistente.
+
+Para ello, se utilizarán los datasets generados durante los Sprint 1 y Sprint 2 como fuente de datos para la construcción de un modelo relacional que facilite la consulta, análisis y explotación de la información.
+
+## Actividades del Sprint 3
+
+- Creación de la rama `Sprint_3`.
+- Verificación y reutilización de datasets generados en los sprints anteriores.
+- Diseño del modelo de datos relacional.
+- Creación de la base de datos del proyecto.
+- Definición de tablas, claves primarias y relaciones.
+- Migración de datos desde archivos CSV y JSON.
+- Validación de integridad y consistencia de la información.
+- Desarrollo de consultas para análisis y explotación de datos.
+
+---
