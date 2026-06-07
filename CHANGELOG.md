@@ -264,3 +264,8 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Reconocimiento de limitaciones asociadas a calidad de imagen, OCR y coincidencias parciales.
 
 ---
+
+## Día 10 - Correcciones y Ajustes Post-Entrega (Sprint 2)
+- **Corrección ruta destino json**:
+Se redireccionó correctamente el archivo json a la carpeta destino. (Ejercicio 2)
+
