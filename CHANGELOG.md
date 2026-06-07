@@ -286,5 +286,8 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Actualización de la rama personal desde `Sprint_3`.
 
 *   **Verificación de Datos**:
-    *   Validación de acceso a datasets generados en los sprints anteriores.
-    *   Verificación de archivos intermedios y procesados necesarios para la migración a base de datos.
+    *   Validación de acceso al dataset limpio del Sprint 1.
+    *   Validación de acceso al diccionario `group_images.json`.
+    *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
+
+---
