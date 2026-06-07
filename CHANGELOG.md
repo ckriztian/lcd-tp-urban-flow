@@ -272,3 +272,19 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Incorporación de la carga de `group_images.json` antes del OCR.
     *   Ajuste de rutas relativas y validaciones de lectura de imágenes.
 
+---
+
+# Sprint 3
+
+## Día 1 - Ejercicio 01: Inicialización y Verificación de Datasets
+
+*   **Gestión de Repositorio**:
+    *   Creación y configuración de la rama `Sprint_3` a partir de `Sprint_2`.
+
+*   **Entorno de Trabajo**:
+    *   Configuración del flujo de trabajo en Google Colab.
+    *   Actualización de la rama personal desde `Sprint_3`.
+
+*   **Verificación de Datos**:
+    *   Validación de acceso a datasets generados en los sprints anteriores.
+    *   Verificación de archivos intermedios y procesados necesarios para la migración a base de datos.
