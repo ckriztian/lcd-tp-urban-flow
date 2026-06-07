@@ -14,7 +14,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 53,HF58HXP,1932-01-01,09:04,50.0,40,AV SIEMPRE VIVA,R02,PAGADA,10.0,8.0,urban_flow/data/raw/imgs/9a795bbf4e94d630_patente.jpg,HF5BHXP,85.71
 59,FD1475,2022-01-07,14:03,59.0,40,RUTA 9,R02,PAGADA,19.0,17.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
 60,FVIOUHP,1932-01-01,18:02,124.0,80,RUTA 9,R01,APELADA,44.0,40.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
-61,VY90540,2022-11-08,00:00,99.0,80,RUTA 9,R01,ERROR,19.0,15.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+61,VY90540,2022-11-08,00:00,99.0,80,RUTA 9,R01,ERROR,19.0,15.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 64,M431ZW,1932-01-01,09:04,86.0,80,RUTA 9,R01,APELADA,6.0,2.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 68,HK06YMX,2020-11-11,14:03,76.0,40,AV SIEMPRE VIVA,,PAGADA,36.0,34.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 69,VNK296GP,2021-05-25,18:02,77.0,40,RUTA 9,R03,IMPAGA,37.0,35.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
@@ -34,7 +34,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 183,UM96201,1932-01-01,08:08,102.0,40,AV SIEMPRE VIVA,R03,PAGADA,62.0,60.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
 184,81ZFJD,1932-01-01,00:00,111.0,80,RUTA 9,R03,ERROR,31.0,27.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 190,VNK296GP,2020-03-03,09:10,153.0,80,AV LIBERTADOR,R01,PAGADA,73.0,69.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
-191,VY90540,2022-02-05,08:08,98.0,60,RUTA 9,,IMPAGA,38.0,35.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+191,VY90540,2022-02-05,08:08,98.0,60,RUTA 9,,IMPAGA,38.0,35.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 193,3646HBH,2021-04-03,09:10,117.0,40,AV SIEMPRE VIVA,R01,PAGADA,77.0,75.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
 200,5777770,2022-09-13,14:06,85.0,60,RUTA 9,R02,PAGADA,25.0,22.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
 202,6611172,1932-01-01,18:09,137.0,60,RUTA 9,R03,ERROR,77.0,74.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
@@ -46,17 +46,17 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 222,XIIUME,2023-06-25,18:10,83.0,60,AV SIEMPRE VIVA,R03,ERROR,23.0,20.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 228,CT5B876,1932-01-01,18:10,141.0,80,RUTA 9,R02,APELADA,61.0,57.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 231,AI7OVF,2021-04-05,14:07,108.0,60,AV LIBERTADOR,R03,APELADA,48.0,45.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
-233,NHZ1002,1932-01-01,18:10,108.0,40,AV SIEMPRE VIVA,R01,APELADA,68.0,66.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+233,NHZ1002,1932-01-01,18:10,108.0,40,AV SIEMPRE VIVA,R01,APELADA,68.0,66.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 240,W326AVE,2020-07-31,08:10,100.0,80,AV SIEMPRE VIVA,R01,APELADA,20.0,16.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 241,CT5B876,2022-06-04,18:11,65.0,40,RUTA 9,R03,ERROR,25.0,23.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
-243,NHZ1002,2021-03-15,00:00,116.0,40,AV LIBERTADOR,R02,IMPAGA,76.0,74.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
-248,VY90540,2020-08-30,18:11,123.0,60,AV LIBERTADOR,,ERROR,63.0,60.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+243,NHZ1002,2021-03-15,00:00,116.0,40,AV LIBERTADOR,R02,IMPAGA,76.0,74.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
+248,VY90540,2020-08-30,18:11,123.0,60,AV LIBERTADOR,,ERROR,63.0,60.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 249,6611172,2020-04-13,08:10,78.0,60,AV LIBERTADOR,R02,APELADA,18.0,15.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 256,XIIUME,2020-04-30,00:00,125.0,80,AV SIEMPRE VIVA,R03,ERROR,45.0,41.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 257,BM351,2023-03-31,14:08,78.0,40,AV SIEMPRE VIVA,R02,ERROR,38.0,36.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
 262,BHRP770,2020-03-29,00:00,94.0,60,AV LIBERTADOR,R01,ERROR,34.0,31.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
 288,GCP332,2023-05-31,08:11,91.0,80,RUTA 9,,IMPAGA,11.0,7.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
-298,VY90540,2021-09-18,00:00,99.0,80,RUTA 9,R01,ERROR,19.0,15.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+298,VY90540,2021-09-18,00:00,99.0,80,RUTA 9,R01,ERROR,19.0,15.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 301,J1S1,1932-01-01,09:13,121.0,80,AV SIEMPRE VIVA,,PAGADA,41.0,37.0,urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,J1S1,100.0
 306,XIIUME,2023-07-26,08:12,133.0,80,AV SIEMPRE VIVA,R02,IMPAGA,53.0,49.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 308,FD1475,2022-09-13,08:12,153.0,80,RUTA 9,,ERROR,73.0,69.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
@@ -83,7 +83,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 424,XIIUME,2023-05-26,14:14,89.0,40,AV LIBERTADOR,R01,ERROR,49.0,47.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 430,FVIOUHP,2023-11-13,00:00,71.0,40,RUTA 9,,APELADA,31.0,29.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
 431,XIIUME,2020-12-02,18:20,114.0,80,AV LIBERTADOR,,IMPAGA,34.0,30.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
-433,VY90540,1932-01-01,08:16,66.0,60,RUTA 9,R03,APELADA,6.0,3.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+433,VY90540,1932-01-01,08:16,66.0,60,RUTA 9,R03,APELADA,6.0,3.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 441,691XC80,2021-08-13,18:21,117.0,60,AV SIEMPRE VIVA,R01,ERROR,57.0,54.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 444,3646HBH,2022-01-18,00:00,74.0,60,AV LIBERTADOR,R02,PAGADA,14.0,11.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
 455,HK06YMX,2020-05-14,09:22,82.0,40,AV SIEMPRE VIVA,,ERROR,42.0,40.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
@@ -93,7 +93,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 482,691XC80,1932-01-01,18:23,106.0,40,RUTA 9,R03,ERROR,66.0,64.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 484,UM96201,2023-04-14,08:17,77.0,40,AV SIEMPRE VIVA,R02,IMPAGA,37.0,35.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
 486,691XC80,2020-05-20,18:23,92.0,60,AV SIEMPRE VIVA,R01,ERROR,32.0,29.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
-487,NHZ1002,2024-02-06,18:23,93.0,80,AV LIBERTADOR,R01,ERROR,13.0,9.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+487,NHZ1002,2024-02-06,18:23,93.0,80,AV LIBERTADOR,R01,ERROR,13.0,9.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 488,6611172,2020-03-31,14:15,100.0,60,AV LIBERTADOR,R03,PAGADA,40.0,37.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 490,81ZFJD,2020-04-10,09:23,62.0,40,AV SIEMPRE VIVA,R03,IMPAGA,22.0,20.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 492,M431ZW,2020-05-29,09:23,62.0,40,AV SIEMPRE VIVA,R02,APELADA,22.0,20.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
@@ -103,12 +103,12 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 500,GCP332,2020-06-27,00:00,63.0,40,RUTA 9,,PAGADA,23.0,21.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
 505,UM96201,1932-01-01,08:18,131.0,60,RUTA 9,,APELADA,71.0,68.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
 506,691XC80,2023-12-31,14:16,53.0,40,AV LIBERTADOR,R01,PAGADA,13.0,11.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
-509,VY90540,2022-09-05,14:16,143.0,80,RUTA 9,,ERROR,63.0,59.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+509,VY90540,2022-09-05,14:16,143.0,80,RUTA 9,,ERROR,63.0,59.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 524,HF3461,2020-01-28,18:24,87.0,80,AV LIBERTADOR,R03,IMPAGA,7.0,3.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 526,FD1475,2022-07-30,00:00,129.0,60,AV LIBERTADOR,R02,APELADA,69.0,66.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
 527,J1S1,1932-01-01,18:24,158.0,80,RUTA 9,R02,ERROR,78.0,74.0,urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,J1S1,100.0
 533,VNK296GP,1932-01-01,09:25,120.0,60,RUTA 9,R02,ERROR,60.0,57.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
-544,VY90540,2022-09-15,18:25,101.0,80,AV SIEMPRE VIVA,,ERROR,21.0,17.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+544,VY90540,2022-09-15,18:25,101.0,80,AV SIEMPRE VIVA,,ERROR,21.0,17.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 550,FVIOUHP,1932-01-01,08:20,75.0,60,RUTA 9,,IMPAGA,15.0,12.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
 564,6611172,1932-01-01,14:18,118.0,80,AV LIBERTADOR,R03,APELADA,38.0,34.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 568,BHRP770,2022-09-06,08:20,153.0,80,RUTA 9,R03,ERROR,73.0,69.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
@@ -131,12 +131,12 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 649,5777770,2023-12-25,09:30,104.0,60,RUTA 9,,IMPAGA,44.0,41.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
 655,MPX9357,2021-11-19,14:22,137.0,80,AV SIEMPRE VIVA,,PAGADA,57.0,53.0,urban_flow/data/raw/imgs/182268e1f8c6525f_patente.jpg,MPX9357,100.0
 665,J1S1,2023-04-18,08:24,75.0,60,RUTA 9,R02,PAGADA,15.0,12.0,urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,J1S1,100.0
-678,NHZ1002,1932-01-01,14:24,120.0,40,AV LIBERTADOR,R02,ERROR,80.0,78.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+678,NHZ1002,1932-01-01,14:24,120.0,40,AV LIBERTADOR,R02,ERROR,80.0,78.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 682,AI7OVF,2021-04-24,14:24,67.0,40,AV LIBERTADOR,,ERROR,27.0,25.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
 684,AI7OVF,1932-01-01,18:31,113.0,60,AV LIBERTADOR,R03,APELADA,53.0,50.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
-686,VY90540,2023-01-31,00:00,131.0,80,AV LIBERTADOR,,IMPAGA,51.0,47.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+686,VY90540,2023-01-31,00:00,131.0,80,AV LIBERTADOR,,IMPAGA,51.0,47.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 689,BHRP770,1932-01-01,18:31,114.0,80,AV SIEMPRE VIVA,,IMPAGA,34.0,30.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
-690,VY90540,2020-07-18,18:32,119.0,80,AV LIBERTADOR,,APELADA,39.0,35.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+690,VY90540,2020-07-18,18:32,119.0,80,AV LIBERTADOR,,APELADA,39.0,35.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 712,HF3461,1932-01-01,18:32,119.0,40,AV SIEMPRE VIVA,R03,ERROR,79.0,77.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 713,BHRP770,2020-12-12,00:00,119.0,80,AV LIBERTADOR,R01,APELADA,39.0,35.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
 725,XIIUME,2020-04-04,14:25,97.0,80,AV SIEMPRE VIVA,,APELADA,17.0,13.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
@@ -180,16 +180,16 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 939,691XC80,2021-07-12,14:34,49.0,40,AV LIBERTADOR,,IMPAGA,9.0,7.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 945,BHRP770,2021-03-11,00:00,95.0,60,AV LIBERTADOR,,APELADA,35.0,32.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
 946,2999961,2022-08-30,00:00,97.0,80,AV SIEMPRE VIVA,R02,PAGADA,17.0,13.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
-949,NHZ1002,2020-03-15,08:36,127.0,60,AV SIEMPRE VIVA,R01,APELADA,67.0,64.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+949,NHZ1002,2020-03-15,08:36,127.0,60,AV SIEMPRE VIVA,R01,APELADA,67.0,64.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 971,FVIOUHP,1932-01-01,09:44,119.0,60,RUTA 9,R01,ERROR,59.0,56.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
 973,HK06YMX,1932-01-01,09:44,121.0,60,AV LIBERTADOR,R02,PAGADA,61.0,58.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 975,MVU4688,2023-08-25,18:43,132.0,60,AV LIBERTADOR,R03,ERROR,72.0,69.0,urban_flow/data/raw/imgs/3feecc5809a29627_patente.jpg,MVU4688,100.0
 977,BB8986,2022-03-14,09:44,81.0,60,RUTA 9,R02,PAGADA,21.0,18.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 979,XIIUME,2023-06-18,14:36,68.0,60,AV SIEMPRE VIVA,R03,APELADA,8.0,5.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 982,BM351,2020-11-04,14:36,81.0,40,AV LIBERTADOR,R03,ERROR,41.0,39.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
-995,VY90540,2021-03-27,14:36,89.0,60,AV LIBERTADOR,R03,IMPAGA,29.0,26.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+995,VY90540,2021-03-27,14:36,89.0,60,AV LIBERTADOR,R03,IMPAGA,29.0,26.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 1000,691XC80,2020-11-13,00:00,121.0,60,AV LIBERTADOR,R02,APELADA,61.0,58.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
-1002,NHZ1002,1932-01-01,18:44,71.0,40,RUTA 9,R03,IMPAGA,31.0,29.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1002,NHZ1002,1932-01-01,18:44,71.0,40,RUTA 9,R03,IMPAGA,31.0,29.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1009,HF3461,2023-02-15,18:45,132.0,80,AV SIEMPRE VIVA,R03,APELADA,52.0,48.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 1012,HF3461,2020-06-03,00:00,74.0,40,RUTA 9,,ERROR,34.0,32.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 1016,BP717,1932-01-01,18:45,82.0,60,AV SIEMPRE VIVA,R03,APELADA,22.0,19.0,urban_flow/data/raw/imgs/e1120bfe48f85c1b_patente.jpg,BP717,100.0
@@ -197,7 +197,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1026,81ZFJD,2021-02-08,08:40,119.0,40,RUTA 9,R03,APELADA,79.0,77.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 1027,HF3461,1932-01-01,08:40,117.0,60,AV SIEMPRE VIVA,,APELADA,57.0,54.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 1032,MVU4688,2020-01-22,09:46,138.0,60,RUTA 9,R03,IMPAGA,78.0,75.0,urban_flow/data/raw/imgs/3feecc5809a29627_patente.jpg,MVU4688,100.0
-1035,VY90540,2023-09-24,08:41,118.0,40,AV LIBERTADOR,R02,PAGADA,78.0,76.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+1035,VY90540,2023-09-24,08:41,118.0,40,AV LIBERTADOR,R02,PAGADA,78.0,76.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 1037,HF58HXP,2021-03-22,00:00,91.0,80,RUTA 9,R01,IMPAGA,11.0,7.0,urban_flow/data/raw/imgs/9a795bbf4e94d630_patente.jpg,HF5BHXP,85.71
 1053,691XC80,1932-01-01,08:41,129.0,60,AV LIBERTADOR,R03,ERROR,69.0,66.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 1058,BM351,2023-10-20,09:47,135.0,80,AV LIBERTADOR,,IMPAGA,55.0,51.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
@@ -222,7 +222,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1169,2999961,2023-12-02,00:00,155.0,80,RUTA 9,R02,APELADA,75.0,71.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
 1170,81ZFJD,2023-02-06,00:00,116.0,60,AV SIEMPRE VIVA,R02,IMPAGA,56.0,53.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 1173,2999961,2023-04-13,14:43,112.0,80,RUTA 9,,PAGADA,32.0,28.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
-1181,NHZ1002,2020-11-13,18:51,71.0,40,RUTA 9,R03,APELADA,31.0,29.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1181,NHZ1002,2020-11-13,18:51,71.0,40,RUTA 9,R03,APELADA,31.0,29.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1184,HK06YMX,1932-01-01,18:52,116.0,60,AV SIEMPRE VIVA,R01,ERROR,56.0,53.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 1190,FD1475,2022-03-04,00:00,58.0,40,AV LIBERTADOR,R03,ERROR,18.0,16.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
 1193,CT5B876,1932-01-01,18:52,46.0,40,RUTA 9,R03,ERROR,6.0,4.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
@@ -245,18 +245,18 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1280,81ZFJD,2022-05-03,08:51,103.0,40,RUTA 9,,APELADA,63.0,61.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 1281,FVIOUHP,2021-12-23,09:56,113.0,80,AV LIBERTADOR,,IMPAGA,33.0,29.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
 1284,5777770,2022-04-11,18:56,64.0,40,AV SIEMPRE VIVA,R02,IMPAGA,24.0,22.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
-1286,NHZ1002,2020-05-20,08:52,79.0,40,AV SIEMPRE VIVA,R03,IMPAGA,39.0,37.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
-1289,NHZ1002,2021-10-15,14:46,146.0,80,RUTA 9,R02,ERROR,66.0,62.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1286,NHZ1002,2020-05-20,08:52,79.0,40,AV SIEMPRE VIVA,R03,IMPAGA,39.0,37.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
+1289,NHZ1002,2021-10-15,14:46,146.0,80,RUTA 9,R02,ERROR,66.0,62.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1301,589222,2020-12-17,14:47,122.0,60,AV SIEMPRE VIVA,R02,PAGADA,62.0,59.0,urban_flow/data/raw/imgs/246a0e4264a39433_patente.jpg,589222,100.0
 1302,589222,2022-04-03,18:56,64.0,60,RUTA 9,R01,ERROR,4.0,1.0,urban_flow/data/raw/imgs/246a0e4264a39433_patente.jpg,589222,100.0
 1305,BM351,2020-08-12,08:53,81.0,40,AV LIBERTADOR,R02,PAGADA,41.0,39.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
 1309,2999961,2023-05-12,14:47,122.0,60,AV LIBERTADOR,R01,PAGADA,62.0,59.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
 1318,GCP332,2023-02-09,09:56,125.0,80,AV LIBERTADOR,R03,APELADA,45.0,41.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
-1326,VY90540,2022-09-24,18:57,145.0,80,AV LIBERTADOR,R03,APELADA,65.0,61.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+1326,VY90540,2022-09-24,18:57,145.0,80,AV LIBERTADOR,R03,APELADA,65.0,61.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 1328,W326AVE,2023-04-13,14:48,126.0,80,AV LIBERTADOR,R02,ERROR,46.0,42.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 1330,VNK296GP,2020-12-05,08:54,107.0,80,RUTA 9,R01,APELADA,27.0,23.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
 1332,UM96201,2021-03-27,18:57,91.0,60,AV LIBERTADOR,R02,APELADA,31.0,28.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
-1336,NHZ1002,2023-08-22,09:57,96.0,40,AV LIBERTADOR,R01,ERROR,56.0,54.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1336,NHZ1002,2023-08-22,09:57,96.0,40,AV LIBERTADOR,R01,ERROR,56.0,54.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1337,MVU4688,2023-12-26,18:57,122.0,60,AV LIBERTADOR,R03,IMPAGA,62.0,59.0,urban_flow/data/raw/imgs/3feecc5809a29627_patente.jpg,MVU4688,100.0
 1351,691XC80,1932-01-01,18:58,78.0,60,AV LIBERTADOR,,APELADA,18.0,15.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 1354,W326AVE,2021-01-11,14:48,117.0,60,RUTA 9,R03,IMPAGA,57.0,54.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
@@ -278,7 +278,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1428,BP717,2020-10-12,00:00,55.0,40,AV SIEMPRE VIVA,R03,IMPAGA,15.0,13.0,urban_flow/data/raw/imgs/e1120bfe48f85c1b_patente.jpg,BP717,100.0
 1431,81ZFJD,2020-04-28,00:00,120.0,80,AV LIBERTADOR,,ERROR,40.0,36.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 1437,BB8986,1932-01-01,10:01,102.0,80,AV LIBERTADOR,R03,PAGADA,22.0,18.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
-1438,NHZ1002,1932-01-01,14:53,113.0,40,AV LIBERTADOR,R01,APELADA,73.0,71.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1438,NHZ1002,1932-01-01,14:53,113.0,40,AV LIBERTADOR,R01,APELADA,73.0,71.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1449,CT5B876,2020-03-28,08:59,96.0,40,AV SIEMPRE VIVA,R02,PAGADA,56.0,54.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 1452,3646HBH,2022-09-15,08:59,154.0,80,RUTA 9,R02,ERROR,74.0,70.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
 1458,VNK296GP,2023-12-21,19:03,99.0,60,AV LIBERTADOR,R01,PAGADA,39.0,36.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
@@ -289,7 +289,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1476,HK06YMX,1932-01-01,19:04,125.0,80,AV LIBERTADOR,R01,ERROR,45.0,41.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 1493,UM96201,2020-02-29,00:00,118.0,40,AV SIEMPRE VIVA,R03,ERROR,78.0,76.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
 1495,FVIOUHP,2021-07-03,10:02,119.0,60,AV SIEMPRE VIVA,R01,PAGADA,59.0,56.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
-1499,NHZ1002,2023-05-29,10:02,56.0,40,RUTA 9,R01,APELADA,16.0,14.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1499,NHZ1002,2023-05-29,10:02,56.0,40,RUTA 9,R01,APELADA,16.0,14.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1503,6611172,2022-02-23,14:55,92.0,40,AV LIBERTADOR,,PAGADA,52.0,50.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 1504,XIIUME,2020-03-18,09:02,100.0,80,AV LIBERTADOR,R02,ERROR,20.0,16.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 1517,BHRP770,1932-01-01,19:05,101.0,40,RUTA 9,R02,IMPAGA,61.0,59.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
@@ -302,7 +302,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1561,VNK296GP,1932-01-01,09:04,120.0,40,AV SIEMPRE VIVA,,APELADA,80.0,78.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
 1562,2999961,2023-02-13,09:04,80.0,40,AV SIEMPRE VIVA,R02,APELADA,40.0,38.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
 1563,W326AVE,2023-10-27,10:06,153.0,80,RUTA 9,R01,PAGADA,73.0,69.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
-1570,VY90540,2023-05-20,14:58,58.0,40,RUTA 9,R01,APELADA,18.0,16.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+1570,VY90540,2023-05-20,14:58,58.0,40,RUTA 9,R01,APELADA,18.0,16.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 1575,6611172,2020-01-18,09:05,92.0,40,RUTA 9,,IMPAGA,52.0,50.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 1589,691XC80,2020-06-20,00:00,134.0,60,AV SIEMPRE VIVA,R02,PAGADA,74.0,71.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 1590,FD1475,2022-08-09,09:06,110.0,40,AV SIEMPRE VIVA,R03,PAGADA,70.0,68.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
@@ -333,7 +333,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1743,MVU4688,1932-01-01,19:16,72.0,40,AV SIEMPRE VIVA,R03,ERROR,32.0,30.0,urban_flow/data/raw/imgs/3feecc5809a29627_patente.jpg,MVU4688,100.0
 1746,HF58HXP,2023-10-01,00:00,112.0,40,RUTA 9,R03,PAGADA,72.0,70.0,urban_flow/data/raw/imgs/9a795bbf4e94d630_patente.jpg,HF5BHXP,85.71
 1748,BP717,2023-04-25,10:13,139.0,80,AV SIEMPRE VIVA,R03,IMPAGA,59.0,55.0,urban_flow/data/raw/imgs/e1120bfe48f85c1b_patente.jpg,BP717,100.0
-1749,NHZ1002,2021-07-09,19:16,102.0,40,AV SIEMPRE VIVA,R01,APELADA,62.0,60.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+1749,NHZ1002,2021-07-09,19:16,102.0,40,AV SIEMPRE VIVA,R01,APELADA,62.0,60.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 1754,6611172,2023-02-19,10:14,89.0,60,AV SIEMPRE VIVA,R02,APELADA,29.0,26.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 1761,GCP332,2020-08-02,09:12,89.0,40,AV SIEMPRE VIVA,R01,APELADA,49.0,47.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
 1763,GCP332,2020-06-11,10:15,110.0,40,RUTA 9,R02,ERROR,70.0,68.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
@@ -364,9 +364,9 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 1939,BB8986,2023-01-23,19:21,101.0,60,RUTA 9,,ERROR,41.0,38.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 1948,CT5B876,1932-01-01,19:22,155.0,80,RUTA 9,R01,APELADA,75.0,71.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 1953,FVIOUHP,1932-01-01,09:20,115.0,60,AV SIEMPRE VIVA,R03,IMPAGA,55.0,52.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
-1956,VY90540,2022-06-21,00:00,46.0,40,RUTA 9,R02,ERROR,6.0,4.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+1956,VY90540,2022-06-21,00:00,46.0,40,RUTA 9,R02,ERROR,6.0,4.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 1958,GCP332,2021-06-07,00:00,124.0,80,AV LIBERTADOR,R01,APELADA,44.0,40.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
-1970,VY90540,2022-02-13,09:21,116.0,60,RUTA 9,R02,PAGADA,56.0,53.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+1970,VY90540,2022-02-13,09:21,116.0,60,RUTA 9,R02,PAGADA,56.0,53.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 1985,M431ZW,1932-01-01,19:25,137.0,80,AV SIEMPRE VIVA,R01,ERROR,57.0,53.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 1989,W326AVE,2022-10-12,15:12,109.0,40,AV LIBERTADOR,R03,APELADA,69.0,67.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 1990,BB8986,1932-01-01,10:23,121.0,80,AV SIEMPRE VIVA,,ERROR,41.0,37.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
@@ -375,7 +375,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2002,HF3461,2021-04-10,10:24,100.0,80,RUTA 9,R01,APELADA,20.0,16.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 2008,W326AVE,2022-09-19,15:13,93.0,60,AV LIBERTADOR,R02,APELADA,33.0,30.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 2009,3646HBH,2023-03-05,00:00,120.0,60,AV SIEMPRE VIVA,R02,IMPAGA,60.0,57.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
-2012,NHZ1002,2021-05-05,19:26,128.0,80,RUTA 9,R01,IMPAGA,48.0,44.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2012,NHZ1002,2021-05-05,19:26,128.0,80,RUTA 9,R01,IMPAGA,48.0,44.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2017,M431ZW,2023-09-19,00:00,122.0,80,RUTA 9,R03,ERROR,42.0,38.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 2019,UM96201,2023-06-23,09:22,112.0,40,AV SIEMPRE VIVA,R02,APELADA,72.0,70.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
 2026,HK06YMX,1932-01-01,19:27,116.0,40,RUTA 9,,ERROR,76.0,74.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
@@ -387,9 +387,9 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2055,W326AVE,1932-01-01,19:28,159.0,80,AV LIBERTADOR,R01,IMPAGA,79.0,75.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 2060,VNK296GP,2023-10-26,19:29,149.0,80,RUTA 9,R02,PAGADA,69.0,65.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
 2075,CT5B876,1932-01-01,19:29,103.0,80,AV LIBERTADOR,R02,PAGADA,23.0,19.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
-2078,NHZ1002,2021-01-06,19:30,111.0,60,AV SIEMPRE VIVA,R01,IMPAGA,51.0,48.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2078,NHZ1002,2021-01-06,19:30,111.0,60,AV SIEMPRE VIVA,R01,IMPAGA,51.0,48.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2081,BM351,2023-01-22,00:00,96.0,60,AV LIBERTADOR,R03,APELADA,36.0,33.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
-2082,VY90540,2022-06-01,09:25,58.0,40,AV SIEMPRE VIVA,R02,ERROR,18.0,16.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+2082,VY90540,2022-06-01,09:25,58.0,40,AV SIEMPRE VIVA,R02,ERROR,18.0,16.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 2107,BB8986,2021-09-29,10:27,91.0,80,RUTA 9,R02,APELADA,11.0,7.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 2112,HK06YMX,1932-01-01,10:27,148.0,80,AV SIEMPRE VIVA,R03,APELADA,68.0,64.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 2113,BP717,1932-01-01,09:27,92.0,40,RUTA 9,,ERROR,52.0,50.0,urban_flow/data/raw/imgs/e1120bfe48f85c1b_patente.jpg,BP717,100.0
@@ -400,7 +400,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2147,6611172,2021-01-20,00:00,93.0,40,AV LIBERTADOR,R02,ERROR,53.0,51.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 2154,FD1475,2020-04-21,10:30,82.0,60,RUTA 9,R02,PAGADA,22.0,19.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
 2156,AI7OVF,1932-01-01,09:28,113.0,80,AV LIBERTADOR,R02,ERROR,33.0,29.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
-2161,VY90540,2021-05-15,10:30,95.0,40,AV LIBERTADOR,R01,ERROR,55.0,53.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+2161,VY90540,2021-05-15,10:30,95.0,40,AV LIBERTADOR,R01,ERROR,55.0,53.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 2170,BB8986,2023-05-07,09:29,97.0,80,AV LIBERTADOR,R02,APELADA,17.0,13.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 2180,BHRP770,2022-09-04,09:30,79.0,40,AV LIBERTADOR,R03,ERROR,39.0,37.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
 2181,UM96201,2021-06-07,19:33,116.0,40,AV SIEMPRE VIVA,R01,ERROR,76.0,74.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
@@ -430,7 +430,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2311,BP717,1932-01-01,15:22,132.0,60,AV SIEMPRE VIVA,R03,APELADA,72.0,69.0,urban_flow/data/raw/imgs/e1120bfe48f85c1b_patente.jpg,BP717,100.0
 2314,81ZFJD,2021-03-23,15:23,106.0,60,AV LIBERTADOR,R03,ERROR,46.0,43.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 2333,BM351,2022-12-18,10:37,50.0,40,AV SIEMPRE VIVA,R03,PAGADA,10.0,8.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
-2336,NHZ1002,2023-06-18,10:37,70.0,40,AV SIEMPRE VIVA,R03,IMPAGA,30.0,28.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2336,NHZ1002,2023-06-18,10:37,70.0,40,AV SIEMPRE VIVA,R03,IMPAGA,30.0,28.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2342,5777770,1932-01-01,10:37,126.0,80,AV LIBERTADOR,R03,IMPAGA,46.0,42.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
 2345,81ZFJD,2022-08-13,19:39,69.0,40,AV SIEMPRE VIVA,,ERROR,29.0,27.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 2347,5777770,2022-11-04,00:00,129.0,60,RUTA 9,R03,PAGADA,69.0,66.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
@@ -449,7 +449,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2395,XIIUME,2020-06-09,15:25,117.0,60,RUTA 9,R02,ERROR,57.0,54.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 2396,M431ZW,2021-11-29,19:42,157.0,80,AV SIEMPRE VIVA,R01,ERROR,77.0,73.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 2397,M431ZW,2023-05-02,15:26,118.0,80,AV LIBERTADOR,R02,IMPAGA,38.0,34.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
-2414,NHZ1002,2023-01-27,09:38,81.0,40,AV SIEMPRE VIVA,,IMPAGA,41.0,39.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2414,NHZ1002,2023-01-27,09:38,81.0,40,AV SIEMPRE VIVA,,IMPAGA,41.0,39.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2419,HK06YMX,2022-02-17,10:39,100.0,80,AV LIBERTADOR,R01,PAGADA,20.0,16.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 2434,HF3461,2020-04-16,00:00,57.0,40,RUTA 9,R01,APELADA,17.0,15.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 2436,BHRP770,2021-10-13,00:00,49.0,40,AV LIBERTADOR,R02,ERROR,9.0,7.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
@@ -480,7 +480,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2541,81ZFJD,1932-01-01,10:44,127.0,60,RUTA 9,R01,IMPAGA,67.0,64.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 2543,XIIUME,2021-07-05,10:44,106.0,80,AV SIEMPRE VIVA,R01,IMPAGA,26.0,22.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
 2546,BHRP770,2020-08-30,09:45,91.0,80,AV SIEMPRE VIVA,,IMPAGA,11.0,7.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
-2554,NHZ1002,2023-12-29,00:00,72.0,40,AV LIBERTADOR,R03,PAGADA,32.0,30.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2554,NHZ1002,2023-12-29,00:00,72.0,40,AV LIBERTADOR,R03,PAGADA,32.0,30.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2556,CT5B876,1932-01-01,00:00,150.0,80,AV LIBERTADOR,R03,IMPAGA,70.0,66.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 2560,691XC80,1932-01-01,15:31,115.0,60,AV LIBERTADOR,R01,PAGADA,55.0,52.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 2562,81ZFJD,2020-08-14,15:31,89.0,80,RUTA 9,R01,PAGADA,9.0,5.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
@@ -489,7 +489,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2566,HF3461,1932-01-01,15:31,118.0,80,RUTA 9,R02,APELADA,38.0,34.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 2567,FD1475,2022-11-15,09:46,110.0,60,AV SIEMPRE VIVA,R02,PAGADA,50.0,47.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
 2569,BHRP770,1932-01-01,09:46,90.0,40,AV SIEMPRE VIVA,R02,PAGADA,50.0,48.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
-2570,NHZ1002,1932-01-01,10:45,156.0,80,AV SIEMPRE VIVA,R02,IMPAGA,76.0,72.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2570,NHZ1002,1932-01-01,10:45,156.0,80,AV SIEMPRE VIVA,R02,IMPAGA,76.0,72.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2578,HF58HXP,2022-09-29,10:45,134.0,60,AV LIBERTADOR,R02,APELADA,74.0,71.0,urban_flow/data/raw/imgs/9a795bbf4e94d630_patente.jpg,HF5BHXP,85.71
 2584,6611172,2023-11-14,00:00,112.0,80,RUTA 9,R02,PAGADA,32.0,28.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 2586,FD1475,2020-06-04,09:47,159.0,80,RUTA 9,,ERROR,79.0,75.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
@@ -501,7 +501,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2619,81ZFJD,2020-03-06,10:47,129.0,60,AV SIEMPRE VIVA,R01,APELADA,69.0,66.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 2620,W326AVE,2022-11-09,00:00,101.0,40,AV LIBERTADOR,,IMPAGA,61.0,59.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 2634,HF58HXP,2023-12-30,19:52,97.0,40,AV SIEMPRE VIVA,R02,PAGADA,57.0,55.0,urban_flow/data/raw/imgs/9a795bbf4e94d630_patente.jpg,HF5BHXP,85.71
-2637,VY90540,1932-01-01,09:49,55.0,40,AV LIBERTADOR,R02,APELADA,15.0,13.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+2637,VY90540,1932-01-01,09:49,55.0,40,AV LIBERTADOR,R02,APELADA,15.0,13.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 2639,5777770,2021-09-08,10:48,78.0,40,AV LIBERTADOR,R03,IMPAGA,38.0,36.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
 2641,J1S1,1932-01-01,19:53,147.0,80,RUTA 9,R03,IMPAGA,67.0,63.0,urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,J1S1,100.0
 2648,M431ZW,1932-01-01,15:33,89.0,80,RUTA 9,R01,ERROR,9.0,5.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
@@ -510,10 +510,10 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2679,AI7OVF,1932-01-01,00:00,111.0,80,AV LIBERTADOR,R03,ERROR,31.0,27.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
 2686,VNK296GP,2023-02-26,10:50,89.0,80,RUTA 9,,APELADA,9.0,5.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
 2688,J1S1,2023-09-21,09:50,93.0,60,AV SIEMPRE VIVA,,IMPAGA,33.0,30.0,urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,J1S1,100.0
-2697,VY90540,1932-01-01,09:51,74.0,60,AV SIEMPRE VIVA,R02,APELADA,14.0,11.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+2697,VY90540,1932-01-01,09:51,74.0,60,AV SIEMPRE VIVA,R02,APELADA,14.0,11.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 2705,W326AVE,2023-01-01,15:35,122.0,80,AV LIBERTADOR,R02,ERROR,42.0,38.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 2706,691XC80,1932-01-01,09:51,121.0,80,AV LIBERTADOR,R02,APELADA,41.0,37.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
-2713,NHZ1002,2020-07-31,10:51,128.0,60,AV LIBERTADOR,R03,PAGADA,68.0,65.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2713,NHZ1002,2020-07-31,10:51,128.0,60,AV LIBERTADOR,R03,PAGADA,68.0,65.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2714,MPX9357,2023-09-01,09:52,79.0,40,AV LIBERTADOR,R01,ERROR,39.0,37.0,urban_flow/data/raw/imgs/182268e1f8c6525f_patente.jpg,MPX9357,100.0
 2716,HF3461,2023-03-19,19:57,142.0,80,AV LIBERTADOR,R03,ERROR,62.0,58.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 2724,FD1475,1932-01-01,10:51,59.0,40,RUTA 9,R03,IMPAGA,19.0,17.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
@@ -543,7 +543,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2825,81ZFJD,1932-01-01,10:54,62.0,40,AV LIBERTADOR,,IMPAGA,22.0,20.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 2826,W326AVE,2024-01-06,10:55,138.0,80,AV SIEMPRE VIVA,,PAGADA,58.0,54.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 2827,5777770,2022-08-26,00:00,146.0,80,AV SIEMPRE VIVA,,PAGADA,66.0,62.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
-2828,NHZ1002,2023-04-12,15:40,116.0,60,RUTA 9,,APELADA,56.0,53.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2828,NHZ1002,2023-04-12,15:40,116.0,60,RUTA 9,,APELADA,56.0,53.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2837,W326AVE,1932-01-01,00:00,151.0,80,AV LIBERTADOR,R01,PAGADA,71.0,67.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 2848,VNK296GP,2020-09-05,15:40,125.0,60,AV LIBERTADOR,R01,IMPAGA,65.0,62.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
 2853,MVU4688,1932-01-01,00:00,109.0,40,AV SIEMPRE VIVA,R02,PAGADA,69.0,67.0,urban_flow/data/raw/imgs/3feecc5809a29627_patente.jpg,MVU4688,100.0
@@ -554,7 +554,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2878,M431ZW,2023-04-26,20:03,70.0,60,AV SIEMPRE VIVA,R02,PAGADA,10.0,7.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 2879,589222,2024-02-02,10:58,73.0,40,AV LIBERTADOR,,APELADA,33.0,31.0,urban_flow/data/raw/imgs/246a0e4264a39433_patente.jpg,589222,100.0
 2885,2999961,1932-01-01,10:58,55.0,40,RUTA 9,R03,PAGADA,15.0,13.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
-2887,VY90540,1932-01-01,20:03,118.0,40,RUTA 9,R02,IMPAGA,78.0,76.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+2887,VY90540,1932-01-01,20:03,118.0,40,RUTA 9,R02,IMPAGA,78.0,76.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 2895,5777770,2023-09-30,15:42,85.0,40,AV LIBERTADOR,R03,IMPAGA,45.0,43.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
 2908,3646HBH,2022-11-12,10:59,138.0,80,AV SIEMPRE VIVA,R03,APELADA,58.0,54.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
 2911,M431ZW,2023-10-10,10:59,68.0,40,AV SIEMPRE VIVA,R01,IMPAGA,28.0,26.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
@@ -562,7 +562,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 2913,CT5B876,2020-08-05,00:00,143.0,80,AV LIBERTADOR,R02,ERROR,63.0,59.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 2916,BHRP770,1932-01-01,00:00,95.0,40,AV LIBERTADOR,,PAGADA,55.0,53.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
 2927,589222,2020-11-14,10:01,55.0,40,AV SIEMPRE VIVA,R03,PAGADA,15.0,13.0,urban_flow/data/raw/imgs/246a0e4264a39433_patente.jpg,589222,100.0
-2931,NHZ1002,2022-07-17,15:43,122.0,60,AV LIBERTADOR,R01,ERROR,62.0,59.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+2931,NHZ1002,2022-07-17,15:43,122.0,60,AV LIBERTADOR,R01,ERROR,62.0,59.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 2934,BB8986,2020-12-11,11:00,96.0,80,AV LIBERTADOR,R02,ERROR,16.0,12.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 2937,81ZFJD,2023-12-17,10:01,87.0,80,AV LIBERTADOR,R01,PAGADA,7.0,3.0,urban_flow/data/raw/imgs/02a6ef3d9bd68e91_patente.jpg,81ZFD,90.91
 2942,691XC80,2022-03-02,15:44,123.0,60,AV SIEMPRE VIVA,R01,APELADA,63.0,60.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
@@ -588,7 +588,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3040,BM351,1932-01-01,20:09,111.0,80,RUTA 9,R02,APELADA,31.0,27.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
 3053,MVU4688,2021-03-29,10:05,105.0,60,RUTA 9,R03,PAGADA,45.0,42.0,urban_flow/data/raw/imgs/3feecc5809a29627_patente.jpg,MVU4688,100.0
 3064,FD1475,2023-09-01,20:10,108.0,80,AV LIBERTADOR,R02,APELADA,28.0,24.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
-3066,VY90540,2023-12-11,20:10,102.0,40,AV LIBERTADOR,R02,PAGADA,62.0,60.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+3066,VY90540,2023-12-11,20:10,102.0,40,AV LIBERTADOR,R02,PAGADA,62.0,60.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 3073,691XC80,1932-01-01,20:10,120.0,60,AV SIEMPRE VIVA,,ERROR,60.0,57.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 3084,CT5B876,2020-08-08,20:11,85.0,40,AV LIBERTADOR,,APELADA,45.0,43.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 3091,589222,2023-07-05,00:00,121.0,60,AV LIBERTADOR,,IMPAGA,61.0,58.0,urban_flow/data/raw/imgs/246a0e4264a39433_patente.jpg,589222,100.0
@@ -597,7 +597,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3112,MPX9357,2020-12-01,00:00,69.0,40,AV LIBERTADOR,,ERROR,29.0,27.0,urban_flow/data/raw/imgs/182268e1f8c6525f_patente.jpg,MPX9357,100.0
 3122,J1S1,1932-01-01,11:06,91.0,60,AV SIEMPRE VIVA,R01,APELADA,31.0,28.0,urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,J1S1,100.0
 3127,MPX9357,2020-01-26,11:07,50.0,40,AV LIBERTADOR,R02,ERROR,10.0,8.0,urban_flow/data/raw/imgs/182268e1f8c6525f_patente.jpg,MPX9357,100.0
-3137,NHZ1002,2022-11-26,11:08,65.0,60,AV LIBERTADOR,R02,APELADA,5.0,2.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3137,NHZ1002,2022-11-26,11:08,65.0,60,AV LIBERTADOR,R02,APELADA,5.0,2.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3139,W326AVE,2021-08-04,15:51,109.0,40,AV LIBERTADOR,,ERROR,69.0,67.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 3148,GCP332,1932-01-01,10:08,135.0,80,RUTA 9,R02,ERROR,55.0,51.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
 3161,FVIOUHP,2024-01-24,20:13,130.0,80,AV SIEMPRE VIVA,R03,IMPAGA,50.0,46.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
@@ -619,19 +619,19 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3228,AI7OVF,2021-02-03,20:18,119.0,60,RUTA 9,R02,PAGADA,59.0,56.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
 3231,HF3461,2021-06-29,20:18,101.0,40,AV LIBERTADOR,R03,IMPAGA,61.0,59.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 3233,HK06YMX,2022-09-03,11:11,105.0,40,AV LIBERTADOR,,IMPAGA,65.0,63.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
-3236,VY90540,2023-08-02,20:19,71.0,60,AV SIEMPRE VIVA,R01,ERROR,11.0,8.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
-3242,VY90540,2023-01-19,11:12,94.0,40,AV LIBERTADOR,R02,PAGADA,54.0,52.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+3236,VY90540,2023-08-02,20:19,71.0,60,AV SIEMPRE VIVA,R01,ERROR,11.0,8.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
+3242,VY90540,2023-01-19,11:12,94.0,40,AV LIBERTADOR,R02,PAGADA,54.0,52.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 3243,2999961,2022-02-01,20:19,102.0,80,AV LIBERTADOR,R01,ERROR,22.0,18.0,urban_flow/data/raw/imgs/5ff91ccfc6f15d04_patente.jpg,2999961,100.0
 3251,CT5B876,2021-12-27,00:00,120.0,80,AV LIBERTADOR,R03,APELADA,40.0,36.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
 3259,FVIOUHP,2023-11-15,10:12,159.0,80,AV SIEMPRE VIVA,R02,APELADA,79.0,75.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
 3263,GCP332,2022-04-16,11:13,140.0,80,RUTA 9,R03,APELADA,60.0,56.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
-3265,NHZ1002,2021-07-04,20:20,110.0,40,AV LIBERTADOR,R02,PAGADA,70.0,68.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3265,NHZ1002,2021-07-04,20:20,110.0,40,AV LIBERTADOR,R02,PAGADA,70.0,68.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3266,HK06YMX,2022-07-22,10:12,65.0,40,AV LIBERTADOR,R01,IMPAGA,25.0,23.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 3269,6611172,1932-01-01,15:55,67.0,60,AV LIBERTADOR,R02,PAGADA,7.0,4.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 3270,BB8986,2021-08-15,00:00,94.0,40,RUTA 9,R02,APELADA,54.0,52.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 3272,MPX9357,2023-12-09,00:00,115.0,80,RUTA 9,R01,APELADA,35.0,31.0,urban_flow/data/raw/imgs/182268e1f8c6525f_patente.jpg,MPX9357,100.0
 3273,6611172,1932-01-01,15:55,98.0,80,AV SIEMPRE VIVA,R03,PAGADA,18.0,14.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
-3276,NHZ1002,2024-01-08,20:20,109.0,40,AV SIEMPRE VIVA,,APELADA,69.0,67.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3276,NHZ1002,2024-01-08,20:20,109.0,40,AV SIEMPRE VIVA,,APELADA,69.0,67.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3284,589222,1932-01-01,20:20,93.0,80,AV SIEMPRE VIVA,R03,ERROR,13.0,9.0,urban_flow/data/raw/imgs/246a0e4264a39433_patente.jpg,589222,100.0
 3288,UM96201,1932-01-01,11:15,110.0,80,RUTA 9,R02,PAGADA,30.0,26.0,urban_flow/data/raw/imgs/09453a7c716a9ef3_patente.jpg,UM96201,100.0
 3290,FVIOUHP,2021-01-13,00:00,52.0,40,AV LIBERTADOR,R01,PAGADA,12.0,10.0,urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIDUHP,85.71
@@ -648,10 +648,10 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3394,HF3461,2023-12-22,20:25,131.0,60,AV LIBERTADOR,R01,APELADA,71.0,68.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 3401,BHRP770,1932-01-01,20:25,130.0,60,AV LIBERTADOR,,PAGADA,70.0,67.0,urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,100.0
 3403,GCP332,1932-01-01,11:20,136.0,60,AV LIBERTADOR,,PAGADA,76.0,73.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
-3417,NHZ1002,2022-07-03,10:20,119.0,40,AV SIEMPRE VIVA,,PAGADA,79.0,77.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3417,NHZ1002,2022-07-03,10:20,119.0,40,AV SIEMPRE VIVA,,PAGADA,79.0,77.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3419,FD1475,2023-12-03,11:21,114.0,40,AV LIBERTADOR,R02,APELADA,74.0,72.0,urban_flow/data/raw/imgs/d8daed582e6cce2d_patente.jpg,FD147,90.91
 3430,VNK296GP,2023-06-23,20:26,83.0,60,AV LIBERTADOR,R02,PAGADA,23.0,20.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
-3432,VY90540,2020-12-08,10:21,127.0,80,RUTA 9,,APELADA,47.0,43.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+3432,VY90540,2020-12-08,10:21,127.0,80,RUTA 9,,APELADA,47.0,43.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 3449,HK06YMX,2020-11-29,20:27,84.0,40,AV LIBERTADOR,R01,ERROR,44.0,42.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 3451,M431ZW,2022-04-29,20:27,97.0,60,AV SIEMPRE VIVA,R02,PAGADA,37.0,34.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 3453,CT5B876,2022-06-28,11:22,87.0,40,AV LIBERTADOR,,APELADA,47.0,45.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
@@ -662,7 +662,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3478,HF3461,2020-06-14,20:28,50.0,40,AV SIEMPRE VIVA,R03,IMPAGA,10.0,8.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
 3485,5777770,1932-01-01,16:02,76.0,40,AV LIBERTADOR,R02,APELADA,36.0,34.0,urban_flow/data/raw/imgs/7f56adf4b9306ac9_patente.jpg,5777770,100.0
 3487,GCP332,2023-03-03,11:23,128.0,60,AV LIBERTADOR,R02,IMPAGA,68.0,65.0,urban_flow/data/raw/imgs/d648b2ae1abc09f3_patente.jpg,G0GCP332,85.71
-3488,VY90540,2022-06-23,00:00,91.0,80,AV SIEMPRE VIVA,R01,PAGADA,11.0,7.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente.jpg,VY90540,100.0
+3488,VY90540,2022-06-23,00:00,91.0,80,AV SIEMPRE VIVA,R01,PAGADA,11.0,7.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 3489,3646HBH,2022-04-24,11:23,82.0,40,AV LIBERTADOR,R03,APELADA,42.0,40.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
 3503,AI7OVF,1932-01-01,00:00,90.0,40,AV LIBERTADOR,R01,IMPAGA,50.0,48.0,urban_flow/data/raw/imgs/747b0f12f54703ee_patente.jpg,AI70VF,83.33
 3518,MPX9357,2021-01-24,10:24,103.0,60,AV LIBERTADOR,R02,APELADA,43.0,40.0,urban_flow/data/raw/imgs/182268e1f8c6525f_patente.jpg,MPX9357,100.0
@@ -695,7 +695,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3683,HK06YMX,2020-09-08,10:32,65.0,60,AV LIBERTADOR,R01,PAGADA,5.0,2.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 3703,HK06YMX,1932-01-01,11:30,156.0,80,AV LIBERTADOR,R02,APELADA,76.0,72.0,urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,HKO6YMX,85.71
 3707,XIIUME,1932-01-01,20:36,140.0,60,AV LIBERTADOR,R01,IMPAGA,80.0,77.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
-3717,NHZ1002,2024-01-01,10:33,95.0,60,RUTA 9,R01,IMPAGA,35.0,32.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3717,NHZ1002,2024-01-01,10:33,95.0,60,RUTA 9,R01,IMPAGA,35.0,32.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3719,BM351,2023-12-24,11:30,92.0,80,AV LIBERTADOR,R03,APELADA,12.0,8.0,urban_flow/data/raw/imgs/9995dfc6e0eae5a1_patente.jpg,BM351,100.0
 3724,W326AVE,2024-01-23,20:37,118.0,80,AV LIBERTADOR,R01,APELADA,38.0,34.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 3728,3646HBH,1932-01-01,10:33,138.0,60,AV LIBERTADOR,R01,APELADA,78.0,75.0,urban_flow/data/raw/imgs/d3729058c6a4186e_patente.jpg,3646HBH,100.0
@@ -715,10 +715,10 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 3776,VNK296GP,1932-01-01,20:40,85.0,80,AV LIBERTADOR,R03,IMPAGA,5.0,1.0,urban_flow/data/raw/imgs/16789af24af158d8_patente.jpg,NK226GP,80.0
 3783,BB8986,1932-01-01,16:16,64.0,60,AV SIEMPRE VIVA,R01,PAGADA,4.0,1.0,urban_flow/data/raw/imgs/7cbc7ee444622a66_patente.jpg,BB8986,100.0
 3788,HF3461,2021-07-16,16:16,98.0,80,RUTA 9,R02,ERROR,18.0,14.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
-3789,NHZ1002,1932-01-01,11:32,43.0,40,AV LIBERTADOR,R02,PAGADA,3.0,1.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3789,NHZ1002,1932-01-01,11:32,43.0,40,AV LIBERTADOR,R02,PAGADA,3.0,1.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3792,M431ZW,2023-05-10,20:41,143.0,80,RUTA 9,R01,APELADA,63.0,59.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 3798,HF3461,2023-12-10,11:32,79.0,40,AV SIEMPRE VIVA,R02,PAGADA,39.0,37.0,urban_flow/data/raw/imgs/a6e3b0b73220cd32_patente.jpg,HF3461,100.0
-3799,NHZ1002,2022-10-30,11:33,97.0,40,AV SIEMPRE VIVA,R02,ERROR,57.0,55.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
+3799,NHZ1002,2022-10-30,11:33,97.0,40,AV SIEMPRE VIVA,R02,ERROR,57.0,55.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 3807,691XC80,1932-01-01,16:17,128.0,80,AV LIBERTADOR,R01,PAGADA,48.0,44.0,urban_flow/data/raw/imgs/5a122adbb1a776b7_patente.jpg,691XC80,100.0
 3808,M431ZW,2022-09-16,10:36,76.0,40,AV LIBERTADOR,R03,APELADA,36.0,34.0,urban_flow/data/raw/imgs/299f0363ae21d1c3_patente.jpg,M431ZM,83.33
 3817,XIIUME,2021-08-27,11:34,129.0,80,AV LIBERTADOR,,APELADA,49.0,45.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
