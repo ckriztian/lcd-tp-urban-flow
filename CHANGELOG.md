@@ -291,3 +291,18 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
 
 ---
+
+## Día 2 - Ejercicio 02: Migración de Archivos Binarios a DVC
+
+*   **Configuración de DVC**:
+    *   Instalación e inicialización de DVC.
+    *   Creación del repositorio remoto local `/content/remote_dvc`.
+    *   Configuración del remote por defecto.
+
+*   **Migración de Datos**:
+    *   Migración de imágenes originales a DVC.
+    *   Migración de imágenes procesadas a DVC.
+    *   Publicación de archivos en el remote local.
+
+*   **Validación**:
+    *   Verificación del estado del repositorio DVC.
