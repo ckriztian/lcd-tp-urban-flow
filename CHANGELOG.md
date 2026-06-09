@@ -361,7 +361,7 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 ---
 
-## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos "transito"
+## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos "transito."
 
 * **Inicialización de la Base de Datos**:
     * Definición de la cadena de conexión para el motor de SQLite (`transito.db`).
