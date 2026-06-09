@@ -341,3 +341,20 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Lectura de registros desde `speeding_fines_image.csv`.
     *   Conversión de una fila de prueba al modelo lógico.
     *   Verificación del correcto funcionamiento del proceso de mapeo.
+
+---
+
+## Día 5 - Ejercicio 05: Diseño del Modelo Relacional con SQLAlchemy ORM
+
+* **Definición de Entidades y Mapeo**:
+    * Creación de la clase base declarativa `Base` para el mapeo relacional.
+    * Implementación de los modelos de datos fundamentales: `Vehiculo`, `Radar`, `Multa` y `Evidencia`.
+    * Configuración de tipos de datos (`String`, `Integer`, `Float`), restricciones y claves primarias (`primary_key=True`).
+
+* **Establecimiento de Relaciones y Claves Foráneas**:
+    * Configuración de relaciones uno a muchos (`back_populates`) entre `Vehiculo`-`Multa` y `Radar`-`Multa`.
+    * Implementación de una relación uno a uno (`uselist=False`, `unique=True`) entre `Multa` y `Evidencia`.
+    * Definición de claves foráneas (`ForeignKey`) para vincular tablas mediante patentes y identificadores.
+
+* **Visualización y Legibilidad**:
+    * Sobrescritura del método `__repr__` en todas las entidades para facilitar la depuración y mejorar la legibilidad del código en consola.
