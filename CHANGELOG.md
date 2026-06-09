@@ -306,3 +306,19 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 *   **Validación**:
     *   Verificación del estado del repositorio DVC.
+
+---
+
+## Día 3 - Ejercicio 03: Diseño del Modelo Lógico
+
+*   **Modelado de Entidades**:
+    *   Definición de la clase `Vehiculo`.
+    *   Definición de la clase `Radar`.
+    *   Definición de la clase `Evidencia`.
+    *   Definición de la clase `Multa`.
+
+*   **Diseño de Relaciones**:
+    *   Representación de la relación entre Vehículo y Multa.
+    *   Representación de la relación entre Radar y Multa.
+    *   Representación de la relación entre Multa y Evidencia.
+
