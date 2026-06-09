@@ -358,3 +358,19 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 * **Visualización y Legibilidad**:
     * Sobrescritura del método `__repr__` en todas las entidades para facilitar la depuración y mejorar la legibilidad del código en consola.
+
+---
+
+## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos "transito"
+
+* **Inicialización de la Base de Datos**:
+    * Definición de la cadena de conexión para el motor de SQLite (`transito.db`).
+    * Creación automática del esquema de tablas en la base de datos utilizando los metadatos del modelo relacional (`Base.metadata.create_all`).
+
+* **Migración y Población desde CSV**:
+    * Lectura del archivo procesado `speeding_fines_image.csv` mediante la librería Pandas.
+    * Implementación de una función cíclica de inserción controlando la existencia previa de registros con `session.get` para evitar duplicados en `Vehiculo` y `Radar`.
+    * Vinculación relacional de entidades en memoria y persistencia de registros mediante transacciones seguras con `flush` y `commit`.
+
+* **Validación**:
+    * Incorporación de consultas de conteo (`query().count()`) para verificar en consola la cantidad exacta de registros insertados por cada tabla (`vehiculos`, `radares`, `multas` y `evidencias`).
