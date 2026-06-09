@@ -182,7 +182,7 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 -   **Persistencia de Datos**:
     *   Construcción del diccionario `group_images`.
-    *   Exportación de `group_images.json` en `ubran_flow/data/interim`.
+    *   Exportación de `group_images.json` en `urban_flow/data/interim`.
 
 -   **Visualización**:
     *   Desarrollo de función reutilizable para mostrar imágenes aleatorias.
@@ -264,3 +264,61 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Reconocimiento de limitaciones asociadas a calidad de imagen, OCR y coincidencias parciales.
 
 ---
+
+## Día 10 - Correcciones y Ajustes Post-Entrega (Sprint 2)
+*   **Ejercicio 2 y 4**:
+    *   Corrección de la ruta de guardado de `group_images.json`.
+    *   Eliminación de la duplicación de `mostrar_imagenes_aleatorias()`.
+    *   Incorporación de la carga de `group_images.json` antes del OCR.
+    *   Ajuste de rutas relativas y validaciones de lectura de imágenes.
+
+---
+
+# Sprint 3
+
+## Día 1 - Ejercicio 01: Inicialización y Verificación de Datasets
+
+*   **Gestión de Repositorio**:
+    *   Creación y configuración de la rama `Sprint_3` a partir de `Sprint_2`.
+
+*   **Entorno de Trabajo**:
+    *   Configuración del flujo de trabajo en Google Colab.
+    *   Actualización de la rama personal desde `Sprint_3`.
+
+*   **Verificación de Datos**:
+    *   Validación de acceso al dataset limpio del Sprint 1.
+    *   Validación de acceso al diccionario `group_images.json`.
+    *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
+
+---
+
+## Día 2 - Ejercicio 02: Migración de Archivos Binarios a DVC
+
+*   **Configuración de DVC**:
+    *   Instalación e inicialización de DVC.
+    *   Creación del repositorio remoto local `/content/remote_dvc`.
+    *   Configuración del remote por defecto.
+
+*   **Migración de Datos**:
+    *   Migración de imágenes originales a DVC.
+    *   Migración de imágenes procesadas a DVC.
+    *   Publicación de archivos en el remote local.
+
+*   **Validación**:
+    *   Verificación del estado del repositorio DVC.
+
+---
+
+## Día 3 - Ejercicio 03: Diseño del Modelo Lógico
+
+*   **Modelado de Entidades**:
+    *   Definición de la clase `Vehiculo`.
+    *   Definición de la clase `Radar`.
+    *   Definición de la clase `Evidencia`.
+    *   Definición de la clase `Multa`.
+
+*   **Diseño de Relaciones**:
+    *   Representación de la relación entre Vehículo y Multa.
+    *   Representación de la relación entre Radar y Multa.
+    *   Representación de la relación entre Multa y Evidencia.
+
