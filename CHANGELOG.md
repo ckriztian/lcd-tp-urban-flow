@@ -361,3 +361,25 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 * **Visualización y Legibilidad**:
     * Sobrescritura del método `__repr__` en todas las entidades para facilitar la depuración y mejorar la legibilidad del código en consola.
+
+---
+
+## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos
+
+* **Configuración de la Base de Datos**:
+    * Definición de la URL de conexión hacia la base de datos SQLite `transito.db`.
+    * Creación del motor de base de datos mediante SQLAlchemy.
+    * Generación automática de las tablas a partir del modelo relacional definido previamente.
+
+* **Migración de Datos desde CSV**:
+    * Lectura del archivo `urban_flow/data/processed/speeding_fines_image.csv`.
+    * Conversión de cada registro del dataset en entidades del modelo relacional.
+    * Inserción de registros correspondientes a `Vehiculo`, `Radar`, `Multa` y `Evidencia`.
+    * Control de duplicados para evitar la creación repetida de vehículos y radares existentes.
+
+* **Persistencia y Validación**:
+    * Confirmación de las transacciones mediante `session.commit()`.
+    * Consulta de cantidades insertadas para cada entidad del sistema.
+    * Verificación de la correcta carga de vehículos, radares, multas y evidencias en la base de datos.
+
+---
