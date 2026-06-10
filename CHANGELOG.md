@@ -324,3 +324,23 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Validación de acceso al dataset limpio del Sprint 1.
     *   Validación de acceso al diccionario `group_images.json`.
     *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
+
+---
+
+## Día 4 - Ejercicio 04: Mapeo de Datos CSV a Entidades
+
+*   **Implementación del Procesamiento de Registros**:
+    *   Desarrollo de la función `procesar_fila_csv`.
+    *   Recepción de registros del archivo CSV mediante diccionarios.
+    *   Extracción de atributos necesarios para cada entidad.
+
+*   **Mapeo del Modelo Lógico**:
+    *   Creación de instancias de la clase `Vehiculo`.
+    *   Creación de instancias de la clase `Radar`.
+    *   Creación de instancias de la clase `Evidencia`.
+    *   Construcción de objetos `Multa` utilizando las entidades relacionadas.
+
+*   **Validación**:
+    *   Lectura de registros desde `speeding_fines_image.csv`.
+    *   Conversión de una fila de prueba al modelo lógico.
+    *   Verificación del correcto funcionamiento del proceso de mapeo.
