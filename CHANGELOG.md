@@ -309,68 +309,18 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 ---
 
-## Día 3 - Ejercicio 03: Diseño del Modelo Lógico
+# Sprint 3
 
-*   **Modelado de Entidades**:
-    *   Definición de la clase `Vehiculo`.
-    *   Definición de la clase `Radar`.
-    *   Definición de la clase `Evidencia`.
-    *   Definición de la clase `Multa`.
+## Día 1 - Ejercicio 01: Inicialización y Verificación de Datasets
 
-*   **Diseño de Relaciones**:
-    *   Representación de la relación entre Vehículo y Multa.
-    *   Representación de la relación entre Radar y Multa.
-    *   Representación de la relación entre Multa y Evidencia.
+*   **Gestión de Repositorio**:
+    *   Creación y configuración de la rama `Sprint_3` a partir de `Sprint_2`.
 
----
+*   **Entorno de Trabajo**:
+    *   Configuración del flujo de trabajo en Google Colab.
+    *   Actualización de la rama personal desde `Sprint_3`.
 
-## Día 4 - Ejercicio 04: Mapeo de Datos CSV a Entidades
-
-*   **Implementación del Procesamiento de Registros**:
-    *   Desarrollo de la función `procesar_fila_csv`.
-    *   Recepción de registros del archivo CSV mediante diccionarios.
-    *   Extracción de atributos necesarios para cada entidad.
-
-*   **Mapeo del Modelo Lógico**:
-    *   Creación de instancias de la clase `Vehiculo`.
-    *   Creación de instancias de la clase `Radar`.
-    *   Creación de instancias de la clase `Evidencia`.
-    *   Construcción de objetos `Multa` utilizando las entidades relacionadas.
-
-*   **Validación**:
-    *   Lectura de registros desde `speeding_fines_image.csv`.
-    *   Conversión de una fila de prueba al modelo lógico.
-    *   Verificación del correcto funcionamiento del proceso de mapeo.
-
----
-
-## Día 5 - Ejercicio 05: Diseño del Modelo Relacional con SQLAlchemy ORM
-
-* **Definición de Entidades y Mapeo**:
-    * Creación de la clase base declarativa `Base` para el mapeo relacional.
-    * Implementación de los modelos de datos fundamentales: `Vehiculo`, `Radar`, `Multa` y `Evidencia`.
-    * Configuración de tipos de datos (`String`, `Integer`, `Float`), restricciones y claves primarias (`primary_key=True`).
-
-* **Establecimiento de Relaciones y Claves Foráneas**:
-    * Configuración de relaciones uno a muchos (`back_populates`) entre `Vehiculo`-`Multa` y `Radar`-`Multa`.
-    * Implementación de una relación uno a uno (`uselist=False`, `unique=True`) entre `Multa` y `Evidencia`.
-    * Definición de claves foráneas (`ForeignKey`) para vincular tablas mediante patentes y identificadores.
-
-* **Visualización y Legibilidad**:
-    * Sobrescritura del método `__repr__` en todas las entidades para facilitar la depuración y mejorar la legibilidad del código en consola.
-
----
-
-## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos "transito."
-
-* **Inicialización de la Base de Datos**:
-    * Definición de la cadena de conexión para el motor de SQLite (`transito.db`).
-    * Creación automática del esquema de tablas en la base de datos utilizando los metadatos del modelo relacional (`Base.metadata.create_all`).
-
-* **Migración y Población desde CSV**:
-    * Lectura del archivo procesado `speeding_fines_image.csv` mediante la librería Pandas.
-    * Implementación de una función cíclica de inserción controlando la existencia previa de registros con `session.get` para evitar duplicados en `Vehiculo` y `Radar`.
-    * Vinculación relacional de entidades en memoria y persistencia de registros mediante transacciones seguras con `flush` y `commit`.
-
-* **Validación**:
-    * Incorporación de consultas de conteo (`query().count()`) para verificar en consola la cantidad exacta de registros insertados por cada tabla (`vehiculos`, `radares`, `multas` y `evidencias`).
+*   **Verificación de Datos**:
+    *   Validación de acceso al dataset limpio del Sprint 1.
+    *   Validación de acceso al diccionario `group_images.json`.
+    *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
