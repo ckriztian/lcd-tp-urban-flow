@@ -48,11 +48,7 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 233,NHZ1002,1932-01-01,18:10,108.0,40,AV SIEMPRE VIVA,R01,APELADA,68.0,66.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
 240,W326AVE,2020-07-31,08:10,100.0,80,AV SIEMPRE VIVA,R01,APELADA,20.0,16.0,urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,100.0
 241,CT5B876,2022-06-04,18:11,65.0,40,RUTA 9,R03,ERROR,25.0,23.0,urban_flow/data/raw/imgs/39c193bcc0c00f9e_patente.jpg,C75B876,85.71
-<<<<<<< HEAD
-243,NHZ1002,2021-03-15,00:00,116.0,40,AV LIBERTADOR,R02,IMPAGA,76.0,74.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.qoi,NHZ12,83.33
-=======
 243,NHZ1002,2021-03-15,00:00,116.0,40,AV LIBERTADOR,R02,IMPAGA,76.0,74.0,urban_flow/data/raw/imgs/1071b237587a698b_patente.jpg,NHZ12,83.33
->>>>>>> Sprint_3
 248,VY90540,2020-08-30,18:11,123.0,60,AV LIBERTADOR,,ERROR,63.0,60.0,urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,VY90540,100.0
 249,6611172,2020-04-13,08:10,78.0,60,AV LIBERTADOR,R02,APELADA,18.0,15.0,urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,6611172,100.0
 256,XIIUME,2020-04-30,00:00,125.0,80,AV SIEMPRE VIVA,R03,ERROR,45.0,41.0,urban_flow/data/raw/imgs/64de505bd2bac82b_patente.jpg,XIIUME,100.0
