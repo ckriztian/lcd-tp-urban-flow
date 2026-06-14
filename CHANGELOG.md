@@ -393,3 +393,14 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 * Consulta de vehículos reincidentes en un período determinado.
 * Cálculo del porcentaje de multas confirmadas mediante evidencia visual.
 * Generación de reportes tabulados para facilitar la interpretación de resultados.
+
+---
+
+## Día 8 - Ejercicio 08: Base de Datos Vectorial
+
+* Creación de la base vectorial `patente_vectorial`.
+* Carga del modelo OpenCLIP para vectorización de imágenes.
+* Generación de vectores a partir de imágenes de evidencias.
+* Vinculación de cada vector con la patente del vehículo mediante metadata.
+* Inserción de 754 vectores en la base vectorial.
+* Validación de la cantidad de registros almacenados.
