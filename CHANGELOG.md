@@ -383,3 +383,13 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     * Verificación de la correcta carga de vehículos, radares, multas y evidencias en la base de datos.
 
 ---
+
+## Día 7 - Ejercicio 07: Consultas sobre la Base de Datos
+
+* Implementación de consultas utilizando SQLAlchemy ORM.
+* Obtención del Top 10 de patentes con mayor cantidad de multas.
+* Identificación y listado de multas sin evidencia visual asociada.
+* Análisis de radares con mayor volumen de infracciones registradas.
+* Consulta de vehículos reincidentes en un período determinado.
+* Cálculo del porcentaje de multas confirmadas mediante evidencia visual.
+* Generación de reportes tabulados para facilitar la interpretación de resultados.
