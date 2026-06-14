@@ -417,3 +417,12 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 * Obtención de información completa del vehículo identificado.
 * Recuperación del historial de multas asociadas a la patente encontrada.
 * Validación de búsquedas utilizando imágenes de prueba provistas por la cátedra.
+
+---
+
+## Día 10 - Ejercicio 10: Conclusiones
+
+* Elaboración de las conclusiones finales del proyecto Urban Flow.
+* Análisis integral del trabajo realizado durante los Sprint 1, 2 y 3.
+* Reflexión sobre la integración entre análisis de datos, OCR, bases relacionales y bases vectoriales.
+* Evaluación de los resultados obtenidos y posibles aplicaciones futuras.
