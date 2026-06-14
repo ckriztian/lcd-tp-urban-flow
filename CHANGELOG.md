@@ -383,3 +383,46 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     * Verificación de la correcta carga de vehículos, radares, multas y evidencias en la base de datos.
 
 ---
+
+## Día 7 - Ejercicio 07: Consultas sobre la Base de Datos
+
+* Implementación de consultas utilizando SQLAlchemy ORM.
+* Obtención del Top 10 de patentes con mayor cantidad de multas.
+* Identificación y listado de multas sin evidencia visual asociada.
+* Análisis de radares con mayor volumen de infracciones registradas.
+* Consulta de vehículos reincidentes en un período determinado.
+* Cálculo del porcentaje de multas confirmadas mediante evidencia visual.
+* Generación de reportes tabulados para facilitar la interpretación de resultados.
+
+---
+
+## Día 8 - Ejercicio 08: Base de Datos Vectorial
+
+* Creación de la base vectorial `patente_vectorial`.
+* Carga del modelo OpenCLIP para vectorización de imágenes.
+* Generación de vectores a partir de imágenes de evidencias.
+* Vinculación de cada vector con la patente del vehículo mediante metadata.
+* Inserción de 754 vectores en la base vectorial.
+* Validación de la cantidad de registros almacenados.
+
+---
+
+## Día 9 - Ejercicio 09: Búsqueda de Vehículos por Similitud Visual
+
+* Implementación de la función `buscar_patente_imagen`.
+* Vectorización de imágenes utilizando el modelo OpenCLIP.
+* Consulta por similitud sobre la base vectorial `patente_vectorial`.
+* Recuperación de la patente asociada a la imagen consultada.
+* Integración entre la base vectorial y la base relacional `transito`.
+* Obtención de información completa del vehículo identificado.
+* Recuperación del historial de multas asociadas a la patente encontrada.
+* Validación de búsquedas utilizando imágenes de prueba provistas por la cátedra.
+
+---
+
+## Día 10 - Ejercicio 10: Conclusiones
+
+* Elaboración de las conclusiones finales del proyecto Urban Flow.
+* Análisis integral del trabajo realizado durante los Sprint 1, 2 y 3.
+* Reflexión sobre la integración entre análisis de datos, OCR, bases relacionales y bases vectoriales.
+* Evaluación de los resultados obtenidos y posibles aplicaciones futuras.

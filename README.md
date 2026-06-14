@@ -122,3 +122,50 @@ Para ello, se utilizarán los datasets generados durante los Sprint 1 y Sprint 2
 - Desarrollo de consultas para análisis y explotación de datos.
 
 ---
+
+## Resultados obtenidos
+
+Durante el Sprint 3 se logró consolidar toda la información generada en los sprints anteriores mediante una arquitectura compuesta por una base de datos relacional y una base de datos vectorial.
+
+### Métricas principales
+
+| Métrica | Resultado |
+|---|---:|
+| Vehículos almacenados | 754 |
+| Multas registradas | 754 |
+| Evidencias visuales | 754 |
+| Radares identificados | 3 |
+| Vectores almacenados | 754 |
+| Porcentaje de multas con evidencia | 100% |
+
+### Consultas realizadas
+
+- Top 10 de vehículos con mayor cantidad de multas.
+- Identificación de radares con mayor volumen de infracciones.
+- Consulta de vehículos reincidentes por período.
+- Obtención de estadísticas de evidencia visual.
+- Recuperación de información de vehículos mediante búsqueda por similitud de imágenes.
+
+### Base de Datos Vectorial
+
+Se implementó una base de datos vectorial denominada `patente_vectorial`, utilizando embeddings generados mediante OpenCLIP.
+
+Cada imagen asociada a una evidencia fue transformada en un vector numérico y vinculada con la patente correspondiente, permitiendo búsquedas por similitud visual y recuperación automática de información desde la base relacional.
+
+---
+
+# Conclusión General
+
+El proyecto Urban Flow permitió integrar distintas disciplinas vinculadas al análisis de datos, procesamiento de imágenes y gestión de bases de datos.
+
+A lo largo de los tres sprints se desarrolló una solución capaz de:
+
+- Procesar y depurar grandes volúmenes de datos.
+- Analizar imágenes y extraer información mediante OCR.
+- Relacionar evidencia visual con registros administrativos.
+- Diseñar e implementar una base de datos relacional utilizando SQLAlchemy.
+- Construir una base de datos vectorial para búsquedas por similitud visual.
+- Recuperar información completa de un vehículo a partir de una imagen.
+
+La integración entre datos estructurados y evidencia visual permitió construir una solución escalable que demuestra el potencial de combinar herramientas de Ciencia de Datos, Visión por Computadora y Bases de Datos Modernas para resolver problemas reales relacionados con la gestión y fiscalización del tránsito.
+---
