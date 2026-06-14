@@ -309,23 +309,18 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 ---
 
-# Sprint 3
+## Día 3 - Ejercicio 03: Diseño del Modelo Lógico
 
-## Día 1 - Ejercicio 01: Inicialización y Verificación de Datasets
+*   **Modelado de Entidades**:
+    *   Definición de la clase `Vehiculo`.
+    *   Definición de la clase `Radar`.
+    *   Definición de la clase `Evidencia`.
+    *   Definición de la clase `Multa`.
 
-*   **Gestión de Repositorio**:
-    *   Creación y configuración de la rama `Sprint_3` a partir de `Sprint_2`.
-
-*   **Entorno de Trabajo**:
-    *   Configuración del flujo de trabajo en Google Colab.
-    *   Actualización de la rama personal desde `Sprint_3`.
-
-*   **Verificación de Datos**:
-    *   Validación de acceso al dataset limpio del Sprint 1.
-    *   Validación de acceso al diccionario `group_images.json`.
-    *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
-
----
+*   **Diseño de Relaciones**:
+    *   Representación de la relación entre Vehículo y Multa.
+    *   Representación de la relación entre Radar y Multa.
+    *   Representación de la relación entre Multa y Evidencia.
 
 ## Día 4 - Ejercicio 04: Mapeo de Datos CSV a Entidades
 
@@ -345,6 +340,7 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Conversión de una fila de prueba al modelo lógico.
     *   Verificación del correcto funcionamiento del proceso de mapeo.
 
+
 ---
 
 ## Día 5 - Ejercicio 05: Diseño del Modelo Relacional con SQLAlchemy ORM
@@ -361,25 +357,3 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 
 * **Visualización y Legibilidad**:
     * Sobrescritura del método `__repr__` en todas las entidades para facilitar la depuración y mejorar la legibilidad del código en consola.
-
----
-
-## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos
-
-* **Configuración de la Base de Datos**:
-    * Definición de la URL de conexión hacia la base de datos SQLite `transito.db`.
-    * Creación del motor de base de datos mediante SQLAlchemy.
-    * Generación automática de las tablas a partir del modelo relacional definido previamente.
-
-* **Migración de Datos desde CSV**:
-    * Lectura del archivo `urban_flow/data/processed/speeding_fines_image.csv`.
-    * Conversión de cada registro del dataset en entidades del modelo relacional.
-    * Inserción de registros correspondientes a `Vehiculo`, `Radar`, `Multa` y `Evidencia`.
-    * Control de duplicados para evitar la creación repetida de vehículos y radares existentes.
-
-* **Persistencia y Validación**:
-    * Confirmación de las transacciones mediante `session.commit()`.
-    * Consulta de cantidades insertadas para cada entidad del sistema.
-    * Verificación de la correcta carga de vehículos, radares, multas y evidencias en la base de datos.
-
----
