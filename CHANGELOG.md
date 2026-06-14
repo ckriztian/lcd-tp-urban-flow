@@ -404,3 +404,16 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
 * Vinculación de cada vector con la patente del vehículo mediante metadata.
 * Inserción de 754 vectores en la base vectorial.
 * Validación de la cantidad de registros almacenados.
+
+---
+
+## Día 9 - Ejercicio 09: Búsqueda de Vehículos por Similitud Visual
+
+* Implementación de la función `buscar_patente_imagen`.
+* Vectorización de imágenes utilizando el modelo OpenCLIP.
+* Consulta por similitud sobre la base vectorial `patente_vectorial`.
+* Recuperación de la patente asociada a la imagen consultada.
+* Integración entre la base vectorial y la base relacional `transito`.
+* Obtención de información completa del vehículo identificado.
+* Recuperación del historial de multas asociadas a la patente encontrada.
+* Validación de búsquedas utilizando imágenes de prueba provistas por la cátedra.
