@@ -272,3 +272,157 @@ Actualización de observaciones, conclusiones y descripciones de gráficos para 
     *   Incorporación de la carga de `group_images.json` antes del OCR.
     *   Ajuste de rutas relativas y validaciones de lectura de imágenes.
 
+---
+
+# Sprint 3
+
+## Día 1 - Ejercicio 01: Inicialización y Verificación de Datasets
+
+*   **Gestión de Repositorio**:
+    *   Creación y configuración de la rama `Sprint_3` a partir de `Sprint_2`.
+
+*   **Entorno de Trabajo**:
+    *   Configuración del flujo de trabajo en Google Colab.
+    *   Actualización de la rama personal desde `Sprint_3`.
+
+*   **Verificación de Datos**:
+    *   Validación de acceso al dataset limpio del Sprint 1.
+    *   Validación de acceso al diccionario `group_images.json`.
+    *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
+
+---
+
+## Día 2 - Ejercicio 02: Migración de Archivos Binarios a DVC
+
+*   **Configuración de DVC**:
+    *   Instalación e inicialización de DVC.
+    *   Creación del repositorio remoto local `/content/remote_dvc`.
+    *   Configuración del remote por defecto.
+
+*   **Migración de Datos**:
+    *   Migración de imágenes originales a DVC.
+    *   Migración de imágenes procesadas a DVC.
+    *   Publicación de archivos en el remote local.
+
+*   **Validación**:
+    *   Verificación del estado del repositorio DVC.
+
+---
+
+# Sprint 3
+
+## Día 1 - Ejercicio 01: Inicialización y Verificación de Datasets
+
+*   **Gestión de Repositorio**:
+    *   Creación y configuración de la rama `Sprint_3` a partir de `Sprint_2`.
+
+*   **Entorno de Trabajo**:
+    *   Configuración del flujo de trabajo en Google Colab.
+    *   Actualización de la rama personal desde `Sprint_3`.
+
+*   **Verificación de Datos**:
+    *   Validación de acceso al dataset limpio del Sprint 1.
+    *   Validación de acceso al diccionario `group_images.json`.
+    *   Validación de acceso al dataset final con evidencia visual del Sprint 2.
+
+---
+
+## Día 4 - Ejercicio 04: Mapeo de Datos CSV a Entidades
+
+*   **Implementación del Procesamiento de Registros**:
+    *   Desarrollo de la función `procesar_fila_csv`.
+    *   Recepción de registros del archivo CSV mediante diccionarios.
+    *   Extracción de atributos necesarios para cada entidad.
+
+*   **Mapeo del Modelo Lógico**:
+    *   Creación de instancias de la clase `Vehiculo`.
+    *   Creación de instancias de la clase `Radar`.
+    *   Creación de instancias de la clase `Evidencia`.
+    *   Construcción de objetos `Multa` utilizando las entidades relacionadas.
+
+*   **Validación**:
+    *   Lectura de registros desde `speeding_fines_image.csv`.
+    *   Conversión de una fila de prueba al modelo lógico.
+    *   Verificación del correcto funcionamiento del proceso de mapeo.
+
+---
+
+## Día 5 - Ejercicio 05: Diseño del Modelo Relacional con SQLAlchemy ORM
+
+* **Definición de Entidades y Mapeo**:
+    * Creación de la clase base declarativa `Base` para el mapeo relacional.
+    * Implementación de los modelos de datos fundamentales: `Vehiculo`, `Radar`, `Multa` y `Evidencia`.
+    * Configuración de tipos de datos (`String`, `Integer`, `Float`), restricciones y claves primarias (`primary_key=True`).
+
+* **Establecimiento de Relaciones y Claves Foráneas**:
+    * Configuración de relaciones uno a muchos (`back_populates`) entre `Vehiculo`-`Multa` y `Radar`-`Multa`.
+    * Implementación de una relación uno a uno (`uselist=False`, `unique=True`) entre `Multa` y `Evidencia`.
+    * Definición de claves foráneas (`ForeignKey`) para vincular tablas mediante patentes y identificadores.
+
+* **Visualización y Legibilidad**:
+    * Sobrescritura del método `__repr__` en todas las entidades para facilitar la depuración y mejorar la legibilidad del código en consola.
+
+---
+
+## Día 6 - Ejercicio 06: Creación y Población de la Base de Datos
+
+* **Configuración de la Base de Datos**:
+    * Definición de la URL de conexión hacia la base de datos SQLite `transito.db`.
+    * Creación del motor de base de datos mediante SQLAlchemy.
+    * Generación automática de las tablas a partir del modelo relacional definido previamente.
+
+* **Migración de Datos desde CSV**:
+    * Lectura del archivo `urban_flow/data/processed/speeding_fines_image.csv`.
+    * Conversión de cada registro del dataset en entidades del modelo relacional.
+    * Inserción de registros correspondientes a `Vehiculo`, `Radar`, `Multa` y `Evidencia`.
+    * Control de duplicados para evitar la creación repetida de vehículos y radares existentes.
+
+* **Persistencia y Validación**:
+    * Confirmación de las transacciones mediante `session.commit()`.
+    * Consulta de cantidades insertadas para cada entidad del sistema.
+    * Verificación de la correcta carga de vehículos, radares, multas y evidencias en la base de datos.
+
+---
+
+## Día 7 - Ejercicio 07: Consultas sobre la Base de Datos
+
+* Implementación de consultas utilizando SQLAlchemy ORM.
+* Obtención del Top 10 de patentes con mayor cantidad de multas.
+* Identificación y listado de multas sin evidencia visual asociada.
+* Análisis de radares con mayor volumen de infracciones registradas.
+* Consulta de vehículos reincidentes en un período determinado.
+* Cálculo del porcentaje de multas confirmadas mediante evidencia visual.
+* Generación de reportes tabulados para facilitar la interpretación de resultados.
+
+---
+
+## Día 8 - Ejercicio 08: Base de Datos Vectorial
+
+* Creación de la base vectorial `patente_vectorial`.
+* Carga del modelo OpenCLIP para vectorización de imágenes.
+* Generación de vectores a partir de imágenes de evidencias.
+* Vinculación de cada vector con la patente del vehículo mediante metadata.
+* Inserción de 754 vectores en la base vectorial.
+* Validación de la cantidad de registros almacenados.
+
+---
+
+## Día 9 - Ejercicio 09: Búsqueda de Vehículos por Similitud Visual
+
+* Implementación de la función `buscar_patente_imagen`.
+* Vectorización de imágenes utilizando el modelo OpenCLIP.
+* Consulta por similitud sobre la base vectorial `patente_vectorial`.
+* Recuperación de la patente asociada a la imagen consultada.
+* Integración entre la base vectorial y la base relacional `transito`.
+* Obtención de información completa del vehículo identificado.
+* Recuperación del historial de multas asociadas a la patente encontrada.
+* Validación de búsquedas utilizando imágenes de prueba provistas por la cátedra.
+
+---
+
+## Día 10 - Ejercicio 10: Conclusiones
+
+* Elaboración de las conclusiones finales del proyecto Urban Flow.
+* Análisis integral del trabajo realizado durante los Sprint 1, 2 y 3.
+* Reflexión sobre la integración entre análisis de datos, OCR, bases relacionales y bases vectoriales.
+* Evaluación de los resultados obtenidos y posibles aplicaciones futuras.

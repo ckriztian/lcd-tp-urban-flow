@@ -1,2 +1,5 @@
 
 urban_flow/data/interim/imgs/04_ocr_temp/
+*.db
+patente_vectorial/
+.dvc/cache/
