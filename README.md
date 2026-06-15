@@ -131,7 +131,6 @@ Durante el Sprint 3 se logró consolidar toda la información generada en los sp
 
 | Métrica | Resultado |
 |---|---:|
-| Vehículos almacenados | 754 |
 | Multas registradas | 754 |
 | Evidencias visuales | 754 |
 | Radares identificados | 3 |
